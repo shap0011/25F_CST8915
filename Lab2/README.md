@@ -124,6 +124,9 @@ Method `fetch` OrderForm.vue updated
 
 ![Method `fetch` updated](./screenshots/14-method-fetch-updated.png)
 
+Created `.env` file
+
+
 
 
 
