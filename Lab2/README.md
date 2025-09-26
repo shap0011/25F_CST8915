@@ -72,6 +72,8 @@ Explicitly declare and isolate dependencies.
 
 Store configuration in the environment.
 
+1. Configure `order-service`
+
 ![GutHub repo stored in lab environment](./screenshots/5-github-repo-stored-in-lab-env.png)
 
 `index.js` file modification
@@ -95,6 +97,14 @@ Added code to `.env`file
 Run order service
 
 ![Run order service](./screenshots/10-run-order-service.png)
+
+Test the order-service
+
+![Test the order service](./screenshots/11-test-order-service-responce.png)
+
+2. Configure
+
+
 
 
 
