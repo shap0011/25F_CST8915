@@ -27,9 +27,9 @@ A single codebase should be used, with version control, for each microservice.
     - The `store-front` code is found in the s`tore-front` directory.
 3. **Push each service** to its respective repository. This way, each service will have its own codebase, tracked separately.
 
-![Three repo created](./screenshots/three-repo-created.png)
+![Three repo created](./screenshots/1-three-repo-created.png)
 
-![Own codebase tracked separately](./screenshots/own-codebase-tracked-separately.png)
+![Own codebase tracked separately](./screenshots/2-own-codebase-tracked-separately.png)
 
 1. **One codebase = one repo.**
 Each microservice (like `order-service`, `product-service`, `store-front`) should live in its *own* GitHub repository.
@@ -45,11 +45,27 @@ You might run the same service on multiple servers/VMs (for scaling), but they a
 Explicitly declare and isolate dependencies.
 
 1. Ensure all dependencies are declared in a dependency management file.
+
+![All dependencies are declared](./screenshots/3-all-dependancies-are-declared.png)
+
 2. Use dependency isolation.
 - **Node.js (Order-Service)**: Use `npm install` to install dependencies in the `node_modules` directory and avoid using global dependencies. This ensures that all modules are isolated to the application and not globally installed on the machine.
     - The `node_modules` folder will be created locally within the project directory, ensuring dependencies are specific to the app.
 
-![Dependency isolation](./screenshots/order-server-running.png)
+*Install dependencies:*
+
+*The service depends on several npm packages (such as express for the web server and amqplib for RabbitMQ communication). Install these dependencies using npm:*
+
+*`npm install`*
+
+*Run the service:*
+
+*Once all dependencies are installed, start the service:*
+
+*`node index.js`* 
+
+
+![Dependency isolation](./screenshots/4-order-server-running.png)
 
 ### Factor 3: Configuration
 
