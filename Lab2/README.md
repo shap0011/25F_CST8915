@@ -108,6 +108,15 @@ Updated `product-service` files
 
 ![Updated 'product-service' files](./screenshots/12-updated-product-service-files.png)
 
+Install Rust
+
+Run `cargo run` command
+
+Test the `product-service`
+
+![Test the 'product-service'](./screenshots/13-test-the-product-service.png)
+
+
 
 
 
