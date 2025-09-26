@@ -116,6 +116,15 @@ Test the `product-service`
 
 ![Test the 'product-service'](./screenshots/13-test-the-product-service.png)
 
+3. Configure store-front
+
+Updated `src` folder
+
+![Method `fetch` updated](./screenshots/14-method-fetch-updated.png)
+
+
+
+
 
 
 
