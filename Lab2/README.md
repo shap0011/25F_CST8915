@@ -102,7 +102,11 @@ Test the order-service
 
 ![Test the order service](./screenshots/11-test-order-service-responce.png)
 
-2. Configure
+2. Configure product-service
+
+Updated `product-service` files
+
+![Updated 'product-service' files](./screenshots/12-updated-product-service-files.png)
 
 
 
