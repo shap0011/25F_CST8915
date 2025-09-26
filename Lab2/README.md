@@ -126,6 +126,35 @@ Method `fetch` OrderForm.vue updated
 
 Created `.env` file
 
+Code added
+
+![Env file created, code added](./screenshots/15-env-file-created-code-added.png)
+
+Run services
+
+*order-service*
+
+![Run order service 'node index.js'](./screenshots/16-order-service-run-node-index.js.png)
+
+*product-service*
+
+![Run 'product-service'](./screenshots/17-product-service-cargo-run.png)
+
+*store-front*
+
+Install `dotenv` package
+
+![Install `dotenv` package](./screenshots/18-store-front-install-dotenv.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
