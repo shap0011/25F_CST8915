@@ -158,7 +158,21 @@ Fix `.env` localhost port
 
 ![Fix localhost port](./screenshots/21-fix-env-localhost-port.png)
 
+Place Order works
+
+![Place order works](./screenshots/22-place-order-works.png)
+
 ### Factor 4: Backing Services
+
+Two Virtual Machines created
+
+![Two Virtual machines created](./screenshots/23-two-vm-created.png)
+
+Network settings configured for both Virtual Machines
+
+![Network settings configured for VM1](./screenshots/24-vm1-configured.png)
+
+![Network settings configured for VM2](./screenshots/25-vm2-configured.png)
 
 
 
