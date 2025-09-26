@@ -146,6 +146,28 @@ Install `dotenv` package
 
 ![Install `dotenv` package](./screenshots/18-store-front-install-dotenv.png)
 
+`npm install`
+
+Run front-store `npm run serve`
+
+![Run store-front](./screenshots/19-run-store-front.png)
+
+![Run store-front on localhost](./screenshots/20-store-front-run-localhost.png)
+
+Fix `.env` localhost port
+
+![Fix localhost port](./screenshots/21-fix-env-localhost-port.png)
+
+### Factor 4: Backing Services
+
+
+
+
+
+
+
+
+
 
 
 
