@@ -166,7 +166,11 @@ Place Order works
 
 Two Virtual Machines created
 
-![Two Virtual machines created](./screenshots/23-two-vm-created.png)
+![Two Virtual machines created](./screenshots/23-1-two-vm-created.png)
+
+SSH Public Keys created and saved in `.ssh` folder
+
+![SSH public keys created and saved in `.ssh` folder](./screenshots/23-2-ssh-public-keys-created.png)
 
 Network settings configured for both Virtual Machines
 
