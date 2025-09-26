@@ -64,12 +64,29 @@ Explicitly declare and isolate dependencies.
 
 *`node index.js`* 
 
-
 ![Dependency isolation](./screenshots/4-order-server-running.png)
+
+<u>*The service is running in isolated environment*</u>
 
 ### Factor 3: Configuration
 
 Store configuration in the environment.
 
+![GutHub repo stored in lab environment](./screenshots/5-github-repo-stored-in-lab-env.png)
+
+`index.js` file modification
+
+![Index-js-file-modification](./screenshots/6-index-js-file-modification.png)
+
 Extract any hard-coded configuration from the code (such as database URLs, RabbitMQ connection strings, ports, etc.) into environment variables.
+
+New file `.env` has been added
+
+![Environment file has been added](./screenshots/7-.env-file-added.png)
+
+Added new library `dotenv`
+
+![Added library 'dotenv'](./screenshots/8-dotenv-library-added.png)
+
+
 
