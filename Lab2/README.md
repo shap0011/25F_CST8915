@@ -88,5 +88,9 @@ Added new library `dotenv`
 
 ![Added library 'dotenv'](./screenshots/8-dotenv-library-added.png)
 
+Added code to `.env`file
+
+![Added code to .env file](./screenshots/9-code-added-to-.env-file.png)
+
 
 
