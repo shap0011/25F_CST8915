@@ -92,5 +92,9 @@ Added code to `.env`file
 
 ![Added code to .env file](./screenshots/9-code-added-to-.env-file.png)
 
+Run order service
+
+![Run order service](./screenshots/10-run-order-service.png)
+
 
 
