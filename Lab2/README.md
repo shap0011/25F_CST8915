@@ -195,7 +195,19 @@ Connection string
 [Watch my Lab2 demo on YouTube](https://youtu.be/PmFtJ8jjnag)
 
 
+Reflection Questions
 
+1. What changes did you make to the order-service and product-service to comply with the Configurations and Backing Services factors of the 12-Factor App methodology?
+
+I moved connection details (like the RabbitMQ connection string and service port) out of the code and into environment variables stored in a .env file. This allows the services to read configuration dynamically at runtime. I also configured the order-service to connect to RabbitMQ as an external backing service running on a separate VM, treating it as an attached resource rather than a built-in dependency.
+
+2. Why is it important to use environment variables instead of hard-coding configurations in your application?
+
+Environment variables keep sensitive information (such as passwords, host addresses, and API keys) out of the codebase and make the application portable across different environments (development, testing, production). This ensures that the same code can run in multiple places while configurations are injected externally, reducing security risks and making deployments more flexible.
+
+3. Why is it important to have separate repositories for each microservice? How does this help maintain independence and scalability of each service?
+
+Separate repositories give each microservice its own codebase, version history, and deployment pipeline. This means teams can work on services independently without breaking others, apply updates or bug fixes in isolation, and scale services individually depending on load. It keeps the architecture modular, easier to maintain, and aligned with the microservices principle of independence.
 
 
 
