@@ -178,6 +178,11 @@ Network settings configured for both Virtual Machines
 
 ![Network settings configured for VM2](./screenshots/25-vm2-configured.png)
 
+Config file modified
+
+![Config file modified](./screenshots/26-config-file-modified.png)
+
+
 
 
 
