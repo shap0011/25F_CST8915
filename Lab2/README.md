@@ -182,6 +182,18 @@ Config file modified
 
 ![Config file modified](./screenshots/26-config-file-modified.png)
 
+Verified RabbitMq
+
+![Verified rabbitMq](./screenshots/28-verifyed-rabbitmq.png)
+
+Connection string
+
+![Connection String](./screenshots/29-connection-string.png)
+
+
+
+[Watch my Lab2 demo on YouTube](https://youtu.be/PmFtJ8jjnag)
+
 
 
 
