@@ -13,7 +13,11 @@
 
    ![Run RabbitMQ on Public IP and login](./screenshots/2-run-RabbitMQ-on-public-IP-and%20login.png)
 
-   1.3. Sub-item 1.3
+   1.3. Publish a test message
+
+   ![Publish a test message](./screenshots/3-publish-a-test-message-in-the-ui.png)
+
+   1.4 
 
 
 
