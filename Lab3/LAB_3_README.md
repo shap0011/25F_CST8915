@@ -194,5 +194,7 @@ Result: both Web Apps are deployed and reachable; order-service connects to Rabb
 
 ![](./screenshots/10-rabbit%20health.png)
 
+![](./screenshots/11-product-servoce-app-ok-healthz.png)
+
 ![](./screenshots/12-product-service-app-products-ok.png)
 
