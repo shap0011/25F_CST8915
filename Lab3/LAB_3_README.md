@@ -198,3 +198,6 @@ Result: both Web Apps are deployed and reachable; order-service connects to Rabb
 
 ![](./screenshots/12-product-service-app-products-ok.png)
 
+## [Link to Video](https://youtu.be/doDd7Cx8k1o)
+
+
