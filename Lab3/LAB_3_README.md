@@ -105,3 +105,94 @@ One codebase tracked in Git (Lab3/product-service-lab3), deployed to multiple en
 
 Local tests passed. The service is now ready to be deployed on Azure Web App, using a production WSGI server (Gunicorn) and an Azure startup command such as:
 `gunicorn app:app --bind=0.0.0.0:$PORT`
+
+## Step 3 — Deploy Order-Service and Product-Service on Azure Web App Service
+
+### 3.1. Create Azure Web Apps
+I created two Linux App Services in Canada Central:
+
+- order-service-app → runtime Node.js 20 LTS
+Deployment: GitHub Actions (Deployment Center created the workflow in my order-service-lab2 repo).
+
+- product-service-app-cucqgzg2fecegtbq → runtime Python 3.12
+Deployment: GitHub Actions from my monorepo (shap0011/25F_CST8915).
+Because the Flask app lives in a subfolder, I updated the workflow to deploy only Lab3/product-service-lab3.
+
+### 3.2 Order-Service package.json
+
+I simplified scripts to match the lab requirement and kept the required dependencies.
+
+### 3.3 Configure & Deploy
+Environment variables (App Service → Configuration → Environment variables)
+
+order-service-app
+
+- RABBITMQ_CONNECTION_STRING = amqp://petapp:PetAppPass123!@52.237.21.50:5672/petstore
+
+- ORDER_QUEUE = order_queue
+
+product-service-app
+
+- SCM_DO_BUILD_DURING_DEPLOYMENT = true (ensures Oryx installs requirements.txt)
+
+Startup commands
+
+- order-service-app: node index.js
+
+- product-service-app: gunicorn app:app --bind=0.0.0.0:$PORT
+
+#### Networking (RabbitMQ VM)
+
+To allow the Web App to reach RabbitMQ during testing, I added an NSG inbound rule:
+
+- TCP 5672, Source = Any, Priority 200, Allow
+(After verification, this can be tightened to only the App Service Outbound IP addresses.)
+
+Verification
+
+Order service
+
+Health:
+https://order-service-app-a9htgzhpbugfe4h5.canadacentral-01.azurewebsites.net/healthz
+
+RabbitMQ health:
+https://order-service-app-a9htgzhpbugfe4h5.canadacentral-01.azurewebsites.net/healthz/rabbitmq
+→ returns {"status":"ok","queue":"order_queue"}
+
+Product service
+
+Health:
+https://product-service-app-cucqgzg2fecegtbq.canadacentral-01.azurewebsites.net/healthz
+
+Products:
+https://product-service-app-cucqgzg2fecegtbq.canadacentral-01.azurewebsites.net/products
+→ returns the 3 static products (Dog Food, Cat Food, Bird Seeds)
+
+Troubleshooting used
+
+Log stream (App Service → Monitoring → Logs) to watch startup and request logs.
+
+Kudu SSH to validate deployment files under /home/site/wwwroot.
+
+TCP connectivity checks from Kudu to 52.237.21.50:5672.
+
+On the VM, confirmed RabbitMQ user/vhost/permissions:
+
+vhost: petstore
+
+user: petapp (password reset to PetAppPass123!)
+
+permissions on petstore: .* .* .*
+
+Result: both Web Apps are deployed and reachable; order-service connects to RabbitMQ on the VM; product-service serves /products and /healthz.
+
+![](./screenshots/6-created-two-web-apps.png)
+
+![](./screenshots/7-order-service-app-logstream.png)
+
+![](./screenshots/8-app-health.png)
+
+![](./screenshots/10-rabbit%20health.png)
+
+![](./screenshots/12-product-service-app-products-ok.png)
+
