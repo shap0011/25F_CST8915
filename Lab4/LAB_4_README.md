@@ -19,5 +19,11 @@ Running on local host
 ### Step 2: Develop with containers
 Complete Develop with containers Guide (Video Included)
 
+[getting-started-todo-app](https://github.com/shap0011/getting-started-todo-app.git)
+
+The application up and running
+
+![](./screenshots/3-getting-started-todo-app.png)
+
 ### Step 3: Build and push your first image
 Complete Build and push your first image (Video Included)
