@@ -23,7 +23,11 @@ Complete Develop with containers Guide (Video Included)
 
 The application up and running
 
-![](./screenshots/3-getting-started-todo-app.png)
+![The application up and running](./screenshots/3-getting-started-todo-app.png)
+
+Make changes to the app
+
+![Make changes to the app](./screenshots/4-modified-getGreeting,js-file.png)
 
 ### Step 3: Build and push your first image
 Complete Build and push your first image (Video Included)
