@@ -11,6 +11,11 @@ Docker Desktop installed and running
 
 ![Docker Desktop installed and running](./screenshots/1-docker-desktop-installed-running.png)
 
+docker run -d -p 8080:80 docker/welcome-to-docker
+
+Running on local host
+![Running on local host](./screenshots/2-run-first-container.png)
+
 ### Step 2: Develop with containers
 Complete Develop with containers Guide (Video Included)
 
