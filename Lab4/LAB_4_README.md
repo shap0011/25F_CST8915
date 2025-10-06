@@ -35,7 +35,7 @@ Complete Develop with containers Guide (Video Included)
 
 #### Change the background color
 
-![]()
+![Change the background color](./screenshots/6-changed-the-background-color.png)
 
 ### Step 3: Build and push your first image
 Complete Build and push your first image (Video Included)
