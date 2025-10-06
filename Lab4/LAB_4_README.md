@@ -21,13 +21,21 @@ Complete Develop with containers Guide (Video Included)
 
 [getting-started-todo-app](https://github.com/shap0011/getting-started-todo-app.git)
 
-The application up and running
+#### The application up and running
 
 ![The application up and running](./screenshots/3-getting-started-todo-app.png)
 
-Make changes to the app
+#### Make changes to the app
 
 ![Make changes to the app](./screenshots/4-modified-getGreeting,js-file.png)
+
+#### Change the placeholder text
+
+![Modified placeholder](./screenshots/5-modified-placeholder.png)
+
+#### Change the background color
+
+![]()
 
 ### Step 3: Build and push your first image
 Complete Build and push your first image (Video Included)
