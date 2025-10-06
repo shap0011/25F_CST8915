@@ -46,4 +46,4 @@ Complete Build and push your first image (Video Included)
 
 #### The app opened on localhost:3000
 
-![The app opened on localhost:3000](./screenshots/7-image-on-docker-hub.png)
+![The app opened on localhost:3000](./screenshots/8-the-app-opened-on-localhost.png)
