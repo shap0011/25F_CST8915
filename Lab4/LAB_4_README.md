@@ -39,3 +39,11 @@ Complete Develop with containers Guide (Video Included)
 
 ### Step 3: Build and push your first image
 Complete Build and push your first image (Video Included)
+
+#### Image is on Docker Hub
+
+![Image is on Docker Hub](./screenshots/7-image-on-docker-hub.png)
+
+#### The app opened on localhost:3000
+
+![The app opened on localhost:3000](./screenshots/7-image-on-docker-hub.png)
