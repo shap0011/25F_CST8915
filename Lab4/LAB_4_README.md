@@ -77,3 +77,62 @@ Complete Build and push your first image (Video Included)
 Docker commands running without sudo
 
 ![Docker commands running without sudo](./screenshots/14-docker-commands-run-without-sudo%20.png)
+
+## Part 2: Docker Fundamentals
+
+### Step 2.1: Understanding Docker Architecture
+
+- Docker Client: The interface you use (docker CLI)
+
+- Docker Daemon: The background service that manages containers
+
+- Docker Registry: Storage for Docker images (e.g., Docker Hub)
+
+#### Docker Architecture
+
+![Docker architecture](./screenshots/15-docker-architecture.png)
+
+### Step 2.2: Basic Docker Commands
+
+#### Container is running and serving port 80
+
+![Container is running and serving port 80](./screenshots/16-container-is-running-and-serving-port-80.png)
+
+#### Container and image cleaned up
+
+![Container and image cleaned up](./screenshots/17-container-and-image-cleaned-up.png)
+
+## Part 3: Working with Dockerfiles
+
+### Step 3.1: Understanding Dockerfiles
+
+### Step 3.2: Create Your First Dockerfile
+
+#### Created a Dockerfile with instructions to build a containerized Flask application.
+
+![Creates a Dockerfile with instructions to build a containerized Flask application](./screenshots/18-created-docker-file-with%20instructions.png)
+
+### Step 3.3: Build the Docker Image
+
+#### All local images including the newly built my-python-app image.
+
+![Local images](./screenshots/19-local-images.png)
+
+### Step 3.4: Run Your Containerized Application
+
+#### Test the application
+
+![Test the application](./screenshots/20-test-the-application.png)
+
+#### App is running in browser
+
+![App is running in browser](./screenshots/21-app-is-running-in-browser.png)
+
+## Part 4: Understanding Docker Images and Layers
+
+### Step 4.1: Image Layers Explained
+
+### Step 4.2: Inspect Image Layers
+
+### Step 4.3: Understanding Layer Caching
+
