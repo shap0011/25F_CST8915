@@ -156,3 +156,25 @@ Docker commands running without sudo
 
 ![Only the layers after the changed file are rebuilt](./screenshots/25-rebuilds-the-image.png)
 
+## Part 5: How Layers Work at Runtime
+
+### Step 5.1: Container Writable Layer
+
+### Step 5.2: Demonstrate Separate Writable Layers
+
+#### Each container has its own data
+
+![Each container has its own data](./screenshots/26-each-container-has-its-own-data.png)
+
+#### Disk usage by container
+
+![Disk usage by container](./screenshots/27-disk-usage-by-container.png)
+
+### Step 5.3: Copy-on-Write (CoW) Strategy
+
+#### Demonstrate CoW
+
+![Demonstrate CoW](./screenshots/28-demo-copy-on-write.png)
+
+
+
