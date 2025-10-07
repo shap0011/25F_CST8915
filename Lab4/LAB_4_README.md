@@ -176,5 +176,35 @@ Docker commands running without sudo
 
 ![Demonstrate CoW](./screenshots/28-demo-copy-on-write.png)
 
+## Part 6: Docker Compose for Multi-Container Applications
+
+### Step 6.1: Understanding Docker Compose
+
+### Step 6.2: Create a Multi-Container Application
+
+![Created a Multi-Container Application](./screenshots/29-created-a-multi-container-application.png)
+
+### Step 6.3: Create a Docker Compose File
+
+### Step 6.4: Run the Application with Docker Compose
+
+#### Running services
+
+![Running services](./screenshots/30-see-running-services.png)
+
+#### Application output
+
+![Test from browser](./screenshots/31-application-output.png)
+
+![Test from browser](./screenshots/32-test-from-browser.png)
+
+![](./screenshots/33-docker-compose-up.png)
+
+![](./screenshots/34-docker-compose-ps.png)
+
+![](./screenshots/35-app-access-directly%20in%20the%20browser.png)
+
+### Step 6.5: Docker Compose Commands
+
 
 
