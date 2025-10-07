@@ -235,3 +235,19 @@ Docker commands running without sudo
 #### Execute a command in a running service
 
 ## Part 7: Clean Up
+
+### Stop all running containers
+
+### Remove all containers
+
+### Remove all images
+
+### Remove all volumes
+
+### Remove all networks
+
+### System-wide cleanup
+
+![](./screenshots/43-deleted-containers-docker-desktop.png)
+
+![](./screenshots/42-deleted-%20resource-group.png)
