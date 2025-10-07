@@ -206,5 +206,32 @@ Docker commands running without sudo
 
 ### Step 6.5: Docker Compose Commands
 
+#### Stop the application
 
+![Stop the application](./screenshots/36-docker-compose-stop.png)
 
+#### Start the stopped application
+
+![Start the stopped application](./screenshots/37-docker-conpose-start.png)
+
+#### Restart services
+
+![Restart services](./screenshots/38-docker-compose-restart.png)
+
+#### Stop and remove containers, networks
+
+![Stop and remove containers, networks](./screenshots/39-docker-compose-down.png)
+
+#### Stop and remove containers, networks, and volumes
+
+![Stop and remove containers, networks, and volumes](./screenshots/40-docker-compose-down-v.png)
+
+#### Scale a service: Update docker-compose.yml
+
+![Scale a service: Update docker-compose.yml](./screenshots/41-update-docker-compose.png)
+
+#### Then run
+
+#### Execute a command in a running service
+
+## Part 7: Clean Up
