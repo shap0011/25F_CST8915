@@ -251,3 +251,31 @@ Docker commands running without sudo
 ![](./screenshots/43-deleted-containers-docker-desktop.png)
 
 ![](./screenshots/42-deleted-%20resource-group.png)
+
+## Prelab
+
+*[getting-started-todo-app](https://github.com/shap0011/getting-started-todo-app.git) (Click to open on GitHub)*
+
+## Video
+
+*[Lab 4 CST8915 Full stack Cloud native Development Introduction to Docker](https://youtu.be/udKmMlX1hdc) (Click to open on YouTube)*
+
+## Reflection questions:
+
+1. What are the main differences between a Docker image and a Docker container?
+
+A Docker image is a read-only template that defines everything needed to run an application - the OS, dependencies, and configuration. A container is a running instance of that image, with its own isolated environment and runtime state. You can think of the image as the blueprint and the container as the live object created from it.
+
+2. Explain how Docker's layered architecture improves efficiency.
+
+Docker builds images in layers, where each instruction in a Dockerfile creates a new cached layer. This layered approach improves efficiency by reusing unchanged layers during rebuilds, saving disk space since layers are shared between images, and reducing upload/download time when pushing or pulling images from registries.
+
+3. Why does each container get its own writable layer?
+
+Each container gets a thin writable layer on top of its image’s read-only layers. This allows the container to store runtime changes such as logs or temporary files without modifying the underlying image. It ensures isolation between containers - changes in one container don’t affect another - and allows containers to be easily removed or replaced.
+
+4. What are the benefits of using Docker Compose over running containers individually?
+
+Docker Compose simplifies managing multi-container applications by defining services, networks, and volumes in a single docker-compose.yml file. It allows developers to start, stop, and scale all services with one command, ensuring consistent configuration and faster deployment compared to manually running individual containers.
+
+
