@@ -134,5 +134,25 @@ Docker commands running without sudo
 
 ### Step 4.2: Inspect Image Layers
 
+#### View history of an image
+
+![History of an image](./screenshots/22-view-history-of-an-image.png)
+
+#### View detailed layer information
+
+![View detailed layer information](./screenshots/23-detailed-layer-information.png)
+
 ### Step 4.3: Understanding Layer Caching
+
+#### Rebuild the image
+
+##### Docker uses cached layers
+
+![Docker uses cached layers](./screenshots/24-docker-uses-cashed-layers.png)
+
+#### Build again
+
+##### Only the layers after the changed file are rebuilt
+
+![Only the layers after the changed file are rebuilt](./screenshots/25-rebuilds-the-image.png)
 
