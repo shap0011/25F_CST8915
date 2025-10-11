@@ -22,3 +22,20 @@
 
 #### Prerequisites:
 - **Docker:** Install Docker Desktop - *DONE*
+
+---
+
+## Lab Steps:
+
+## Step 1: Fork and Clone the Repositories
+
+### 1.1. Forked repositories into my own account:
+
+- [Order Service](https://github.com/shap0011/order-service-L4.git)
+- [Product Service (Python)](https://github.com/shap0011/product-service-python-L4.git)
+- [Product Service (Rust)](https://github.com/shap0011/product-service-rust-L4.git)
+- [Store Front](https://github.com/shap0011/store-front-L4.git)
+
+### 1.2. Cloned repositories to local machine:
+
+<img src="./screenshots/1 clone ropos to locat machine.png" alt="Cloned repositories to local machine" title="Cloned repositories to local machine" width="300">
