@@ -27,6 +27,8 @@
 
 ## Lab Steps:
 
+---
+
 ## Step 1: Fork and Clone the Repositories
 
 ### 1.1. Forked repositories into my own account:
@@ -39,3 +41,13 @@
 ### 1.2. Cloned repositories to local machine:
 
 <img src="./screenshots/1 clone ropos to locat machine.png" alt="Cloned repositories to local machine" title="Cloned repositories to local machine" width="300">
+
+---
+
+## Step 2: Containerizing the Algonquin Pet Store Microservices
+
+### Step 2.1. Dockerize the order-service
+
+In the `order-service` directory, created a `Dockerfile`
+
+<img src="./screenshots/2 create Dockerfile.png" alt="Create a Dockerfile" title="Create a Dockerfile" width="250">
