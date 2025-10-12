@@ -54,15 +54,15 @@ Build the Docker image
 
 <img src="./screenshots/3 build docker image.png" alt="Build the Docker image" title="Build the Docker image" width="600">
 
-Run a Docker container from order-service:latest image and expose it on port 3000
+Run a Docker container from `order-service:latest` image and expose it on `port 3000`
 
 <img src="./screenshots/4 run a docker container.png" alt="Run a Docker container" title="Run a Docker container" width="700">
 
-Open port on localhost:3000
+Open port on `localhost:3000`
 
 <img src="./screenshots/5 open port on local host cannot get.png" alt="Running order-service on local host cannot get" title="Running order-service on local host cannot get" width="150">
 
-Running test order-service
+Running test `order-service`
 
 <img src="./screenshots/6 running test order service.png" alt="Run test order-service" title="Run test order-service" width="500">
 
@@ -76,17 +76,19 @@ Check out the Docker images
 
 ### Step 2.2. Dockerize the product-service
 
-Build the Docker image for product-service-python
+Build the Docker image for `product-service-python`
 
 <img src="./screenshots/9 build image for product-service-python.png" alt="Build the Docker image for product-service-python" title="Build the Docker image for product-service-python" width="600">
 
-Build the Docker image for product-service-rust
+Build the Docker image for `product-service-rust`
 
 <img src="./screenshots/10 build image for product-service-rust.png" alt="Build the Docker image for product-service-rust" title="Build the Docker image for product-service-rust" width="600">
 
 ### Step 2.3. Dockerize the store-front
 
-<img src="" alt="" title="" width="300">
+Built the Docker image for `store-front`
+
+<img src="./screenshots/" alt="All needed Docker images" title="All needed Docker images" width="600">
 
 ## Step 3: Using Docker Compose for Local Development
 
