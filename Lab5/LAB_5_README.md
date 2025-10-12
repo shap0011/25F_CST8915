@@ -138,7 +138,7 @@ Built the Docker image for `store-front`
 
 ### Notes about Setup Challenges / Lessons Learned
 
-While setting up Docker for this lab, I ran into an issue where **Docker Desktop** wouldn’t open after building and running containers. It turned out that the **Docker engine (WSL backend)** had stopped running in the background. To fix it, I had to **shut down WSL, end Docker processes,** and **restart Docker Desktop**. After that, everything worked fine. This helped me learn how Docker depends on WSL on Windows and how to check if the Docker engine is actually running using commands like docker `version` and docker `ps`.
+While setting up Docker for this lab, I ran into an issue where **Docker Desktop** wouldn’t open after building and running containers. It turned out that the **Docker engine (WSL backend)** had stopped running in the background. To fix it, I had to **shut down WSL, end Docker processes,** and **restart Docker Desktop**. After that, everything worked fine. This helped me learn how Docker depends on WSL on Windows and how to check if the Docker engine is actually running using commands like docker `version` and `docker ps`.
 
 ```
 1) Close any stuck Docker Desktop processes
