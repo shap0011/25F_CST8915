@@ -58,7 +58,7 @@ Build the Docker image
 
 Run a Docker container from order-service:latest image and expose it on port 3000
 
-<img src="./screenshots/4 run a docker container.png" alt="Run a Docker container" title="Run a Docker container" width="1200">
+<img src="./screenshots/4 run a docker container.png" alt="Run a Docker container" title="Run a Docker container" width="700">
 
 ### Step 2.2. Dockerize the product-service
 
