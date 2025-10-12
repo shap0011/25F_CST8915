@@ -150,7 +150,7 @@ taskkill /IM "com.docker.backend.exe" /F
 
 2) Restart WSL (the Docker backend)
 wsl --status
-wsl -l -v     
+wsl -l -v   # you should see "docker-desktop" and "docker-desktop-data"  
 wsl --shutdown
 
 3) Relaunch Docker Desktop
