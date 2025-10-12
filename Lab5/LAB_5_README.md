@@ -60,6 +60,8 @@ Run a Docker container from order-service:latest image and expose it on port 300
 
 <img src="./screenshots/5 open port on local host cannot get.png" alt="Running order-service on local host cannot get" title="Running order-service on local host cannot get" width="150">
 
+<img src="./screenshots/6 running test order service.png" alt="Run test order-service" title="Run test order-service" width="500">
+
 ### Step 2.2. Dockerize the product-service
 
 <img src="" alt="" title="" width="300">
