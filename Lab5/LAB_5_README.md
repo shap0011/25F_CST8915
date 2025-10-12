@@ -50,4 +50,25 @@
 
 In the `order-service` directory, created a `Dockerfile`
 
-<img src="./screenshots/2 create Dockerfile.png" alt="Create a Dockerfile" title="Create a Dockerfile" width="250">
+Build the Docker image
+
+<img src="./screenshots/3 build docker image.png" alt="Build the Docker image" title="Build the Docker image" width="300">
+
+<img src="" alt="" title="" width="300">
+
+Run a Docker container from order-service:latest image and expose it on port 3000
+
+<img src="./screenshots/4 run a docker container.png" alt="Run a Docker container" title="Run a Docker container" width="1800">
+
+### Step 2.2. Dockerize the product-service
+
+
+### Step 2.3. Dockerize the store-front
+
+
+## Step 3: Using Docker Compose for Local Development
+
+
+### Step 3.1. Create a docker-compose.yml file
+
+
