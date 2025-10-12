@@ -70,6 +70,10 @@ Stop container
 
 <img src="./screenshots/7 stop container.png" alt="Stop container" title="Stop container" width="300">
 
+Check out Docker images
+
+<img src="./screenshots/8 check out dockerimages.png" alt="Check out Docker images" title="Check out Docker images" width="400">
+
 ### Step 2.2. Dockerize the product-service
 
 <img src="" alt="" title="" width="300">
