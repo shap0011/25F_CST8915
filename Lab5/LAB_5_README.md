@@ -52,13 +52,13 @@ In the `order-service` directory, created a `Dockerfile`
 
 Build the Docker image
 
-<img src="./screenshots/3 build docker image.png" alt="Build the Docker image" title="Build the Docker image" width="300">
+<img src="./screenshots/3 build docker image.png" alt="Build the Docker image" title="Build the Docker image" width="600">
 
 <img src="" alt="" title="" width="300">
 
 Run a Docker container from order-service:latest image and expose it on port 3000
 
-<img src="./screenshots/4 run a docker container.png" alt="Run a Docker container" title="Run a Docker container" width="1800">
+<img src="./screenshots/4 run a docker container.png" alt="Run a Docker container" title="Run a Docker container" width="1200">
 
 ### Step 2.2. Dockerize the product-service
 
