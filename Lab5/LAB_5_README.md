@@ -136,6 +136,37 @@ Built the Docker image for `store-front`
             - Your final docker-compose.yaml file which uses the images from your docker hub.
         - (Optional) Notes about setup challenges or lessons learned.
 
+### Notes about Setup Challenges / Lessons Learned
+
+While setting up Docker for this lab, I ran into an issue where **Docker Desktop** wouldn’t open after building and running containers. It turned out that the **Docker engine (WSL backend)** had stopped running in the background. To fix it, I had to **shut down WSL, end Docker processes,** and **restart Docker Desktop**. After that, everything worked fine. This helped me learn how Docker depends on WSL on Windows and how to check if the Docker engine is actually running using commands like docker `version` and docker `ps`.
+
+```
+1) Close any stuck Docker Desktop processes
+
+Open PowerShell (not Git Bash) and run:
+
+taskkill /IM "Docker Desktop.exe" /F
+taskkill /IM "com.docker.backend.exe" /F
+
+2) Restart WSL (the Docker backend)
+wsl --status
+wsl -l -v     
+wsl --shutdown
+
+3) Relaunch Docker Desktop
+
+From Start menu: Docker Desktop, or
+
+& "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+
+Give it ~30–60 seconds, then in any terminal:
+
+docker version
+docker ps
+```
+
+I also learned how to create and use a **Dockerfile** to containerize an application. Writing a Dockerfile helped me understand how each instruction (such as `FROM`, `WORKDIR`, `COPY`, `RUN`, `EXPOSE`, and `CMD`) contributes to building the environment for a microservice. I realized how the order of these commands can affect the image size and build time, and how important it is to structure the file properly for clean, repeatable builds.
+
 ### How to Submit
 
     - Push your work to a public GitHub repository (the submission repository).
