@@ -58,7 +58,7 @@ Run a Docker container from order-service:latest image and expose it on port 300
 
 <img src="./screenshots/4 run a docker container.png" alt="Run a Docker container" title="Run a Docker container" width="700">
 
-Open port on localhost
+Open port on localhost:3000
 
 <img src="./screenshots/5 open port on local host cannot get.png" alt="Running order-service on local host cannot get" title="Running order-service on local host cannot get" width="150">
 
