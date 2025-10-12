@@ -98,4 +98,48 @@ Built the Docker image for `store-front`
 
 <img src="" alt="" title="" width="300">
 
+### Step 3.2. Run the application using Docker Compose
+
+<img src="" alt="" title="" width="300">
+
+## Step 4: Pushing Docker Images to a Container Registry
+
+
+### Step 4.1 Tag the images
+
+
+### Step 4.2 Push the images
+
+
+## Clean Up Docker Environment
+
+
+## Use Docker Hub Images with Docker Compose
+
+
+---
+
+## Submission
+
+### What to Submit
+
+1. Demo Video (Max 5 minutes)
+
+    - Record a short demo video for the lab
+
+2. GitHub Repository (Submission Repo)
+
+    - You must create one GitHub repository for your lab submission.
+    - This submission repository must include:
+        - A README.md file with:
+            - The YouTube demo video link.
+            - Your final docker-compose.yaml file which uses the images from your docker hub.
+        - (Optional) Notes about setup challenges or lessons learned.
+
+### How to Submit
+
+    - Push your work to a public GitHub repository (the submission repository).
+    - Submit the link to your submission repository as your final lab deliverable in Brightspace.
+
+
 
