@@ -54,21 +54,26 @@ Build the Docker image
 
 <img src="./screenshots/3 build docker image.png" alt="Build the Docker image" title="Build the Docker image" width="600">
 
-<img src="" alt="" title="" width="300">
-
 Run a Docker container from order-service:latest image and expose it on port 3000
 
 <img src="./screenshots/4 run a docker container.png" alt="Run a Docker container" title="Run a Docker container" width="700">
 
+<img src="./screenshots/5 open port on local host cannot get.png" alt="Running order-service on local host cannot get" title="Running order-service on local host cannot get" width="150">
+
 ### Step 2.2. Dockerize the product-service
 
+<img src="" alt="" title="" width="300">
 
 ### Step 2.3. Dockerize the store-front
 
+<img src="" alt="" title="" width="300">
 
 ## Step 3: Using Docker Compose for Local Development
 
+<img src="" alt="" title="" width="300">
 
 ### Step 3.1. Create a docker-compose.yml file
+
+<img src="" alt="" title="" width="300">
 
 
