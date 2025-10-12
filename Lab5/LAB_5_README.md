@@ -88,7 +88,7 @@ Build the Docker image for `product-service-rust`
 
 Built the Docker image for `store-front`
 
-<img src="./screenshots/" alt="All needed Docker images" title="All needed Docker images" width="600">
+<img src="./screenshots/11 created store-front image.png" alt="All needed Docker images" title="All needed Docker images" width="600">
 
 ## Step 3: Using Docker Compose for Local Development
 
