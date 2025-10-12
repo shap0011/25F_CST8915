@@ -70,13 +70,19 @@ Stop container
 
 <img src="./screenshots/7 stop container.png" alt="Stop container" title="Stop container" width="300">
 
-Check out Docker images
+Check out the Docker images
 
 <img src="./screenshots/8 check out dockerimages.png" alt="Check out Docker images" title="Check out Docker images" width="400">
 
 ### Step 2.2. Dockerize the product-service
 
-<img src="" alt="" title="" width="300">
+Build the Docker image for product-service-python
+
+<img src="./screenshots/9 build image for product-service-python.png" alt="Build the Docker image for product-service-python" title="Build the Docker image for product-service-python" width="600">
+
+Build the Docker image for product-service-rust
+
+<img src="./screenshots/10 build image for product-service-rust.png" alt="Build the Docker image for product-service-rust" title="Build the Docker image for product-service-rust" width="600">
 
 ### Step 2.3. Dockerize the store-front
 
