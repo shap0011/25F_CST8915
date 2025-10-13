@@ -92,27 +92,41 @@ Built the Docker image for `store-front`
 
 ## Step 3: Using Docker Compose for Local Development
 
-<img src="" alt="" title="" width="300">
-
 ### Step 3.1. Create a docker-compose.yml file
 
-<img src="" alt="" title="" width="300">
+Created a docker-compose.yml file
+
+<img src="./screenshots/12 created docker compose file.png" alt="Created a docker-compose.yml file" title="Created a docker-compose.yml file" width="200">
 
 ### Step 3.2. Run the application using Docker Compose
 
-<img src="" alt="" title="" width="300">
+Build and run all services together
+
+<img src="./screenshots/13 build and run all services together.png" alt="Build and run all services together" title="Build and run all services together" width="300">
 
 ## Step 4: Pushing Docker Images to a Container Registry
 
+Log in to Docker Hub account 
+
+<img src="./screenshots/14 log in to docker hub account.png" alt="Log in to Docker Hub account" title="Log in to Docker Hub account" width="900">
+
+Docker images
+
+<img src="./screenshots/15 docker images.png" alt="Docker images" title="Docker images" width="150">
 
 ### Step 4.1 Tag the images
 
+Tag the images
+
+<img src="./screenshots/16 tag the images.png" alt="Tag the images" title="Tag the images" width="300">
 
 ### Step 4.2 Push the images
 
+<img src="" alt="" title="" width="300">
 
 ## Clean Up Docker Environment
 
+<img src="" alt="" title="" width="300">
 
 ## Use Docker Hub Images with Docker Compose
 
