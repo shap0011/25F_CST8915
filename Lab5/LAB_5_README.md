@@ -139,6 +139,10 @@ Clean up Docker Environment
 
 ## Submission
 
+### *[Link to docker-compose.yml](https://github.com/shap0011/25F_CST8915/blob/main/Lab5/docker-compose.yml)*
+
+### *[Link to Demo Video]()*
+
 ### What to Submit
 
 1. Demo Video (Max 5 minutes)
