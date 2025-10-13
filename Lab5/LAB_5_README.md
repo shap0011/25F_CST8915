@@ -122,7 +122,9 @@ Tag the images
 
 ### Step 4.2 Push the images
 
-<img src="" alt="" title="" width="300">
+Push the images to Docker Hub
+
+<img src="./screenshots/17 push the images to Docker Hub.png" alt="Push the images to Docker Hub" title="Push the images to Docker Hub" width="250">
 
 ## Clean Up Docker Environment
 
