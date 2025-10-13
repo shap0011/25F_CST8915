@@ -114,13 +114,13 @@ Docker images
 
 <img src="./screenshots/15 docker images.png" alt="Docker images" title="Docker images" width="250">
 
-### Step 4.1 Tag the images
+### Step 4.1. Tag the images
 
 Tag the images
 
 <img src="./screenshots/16 tag the images.png" alt="Tag the images" title="Tag the images" width="400">
 
-### Step 4.2 Push the images
+### Step 4.2. Push the images
 
 Push the images to Container Registry
 
