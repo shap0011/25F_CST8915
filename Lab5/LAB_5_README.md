@@ -132,9 +132,6 @@ Clean up Docker Environment
 
 <img src="./screenshots/18 cleanup docker environment.png" alt="Clean up Docker Environment" title="Clean up Docker Environment" width="500">
 
-## Use Docker Hub Images with Docker Compose
-
-
 ---
 
 ## Submission
