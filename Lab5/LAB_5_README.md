@@ -138,7 +138,7 @@ Clean up Docker Environment
 
 ### *[Link to docker-compose.yml](https://github.com/shap0011/25F_CST8915/blob/main/Lab5/docker-compose.yml)*
 
-### *[Link to Demo Video]()*
+### *[Link to Demo Video](https://youtu.be/udL8AfVTDLM?si=PdNtPpFJQtwJai9o)*
 
 ### What to Submit
 
