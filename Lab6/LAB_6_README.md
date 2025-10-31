@@ -43,7 +43,7 @@ I'm gaining hands-on experience deploying microservices to AKS, connecting to th
 kubectl version --client
 ```
 
-[kubectl installed](./screenshots/Step_1_Install_kubectl.png)
+![kubectl installed](./screenshots/Step_1_Install_kubectl.png)
 
 - You should see the client version information displayed, confirming a successful installation.
 
