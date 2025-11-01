@@ -22,7 +22,7 @@ I'm gaining hands-on experience deploying microservices to AKS, connecting to th
 - Store-front was slightly modified to achieve that. Examine the updated store-front repo: https://github.com/ramymohamed10/store-front-L6.
 - **Hint:** start by investigating `nginx.conf` file.
 
-  ***
+---
 
 ## Step 1: Install `kubectl`
 
@@ -39,9 +39,9 @@ I'm gaining hands-on experience deploying microservices to AKS, connecting to th
 
 - After installing, confirm that `kubectl` is properly set up by running:
 
-```
-kubectl version --client
-```
+  ```
+  kubectl version --client
+  ```
 
 <img src="./screenshots/Step_1_Install_kubectl.png" alt="" title="" width="700">
 
@@ -49,7 +49,7 @@ kubectl version --client
 
 - You should see the client version information displayed, confirming a successful installation.
 
-  ***
+---
 
 ## Step 2: Create an Azure Kubernetes Cluster (AKS)
 
@@ -108,21 +108,21 @@ Go to https://portal.azure.com and log in with your Azure account.
 
 - Login to your azure account using the following command:
 
-```
-az login
-```
+  ```
+  az login
+  ```
 
 - Set the cluster subscription using the command shown in the portal (it will look something like this):
 
-```
-az account set --subscription 'subscribtion-id'
-```
+  ```
+  az account set --subscription 'subscribtion-id'
+  ```
 
 - Copy the command shown in the portal for configuring `kubectl` (it will look something like this):
 
-```
-az aks get-credentials --resource-group AlgonquinPetStoreRG --name AlgonquinPetStoreCluster
-```
+  ```
+  az aks get-credentials --resource-group AlgonquinPetStoreRG --name AlgonquinPetStoreCluster
+  ```
 
 **Understanding the Command:**
 
@@ -135,15 +135,89 @@ az aks get-credentials --resource-group AlgonquinPetStoreRG --name AlgonquinPetS
 
   - Test your connection to the AKS cluster by listing all nodes:
 
-```
-kubectl get nodes
-```
+    ```
+    kubectl get nodes
+    ```
 
 You should see details of the nodes in your AKS cluster if the connection is successful.
 
 ---
 
 ## Step 3: Deploy the Algonquin Pet Store Application
+
+**1. Apply the YAML file to the AKS cluster:**
+
+- In this step, use the K8s deployment YAML file provided: `algonquin-pet-store-all-in-one.yaml`.
+- Open the terminal and navigate to the file directory.
+- Run the following command to apply the YAML configuration and deploy the application to AKS:
+
+  ```
+  kubectl apply -f algonquin-pet-store-all-in-one.yaml
+  ```
+
+**2. Verify the deployment:**
+
+- After the command executes, verify that the pods are running by using the following command:
+
+  ```
+  kubectl get pods
+  ```
+
+**3. Check services:**
+
+- Confirm that all services are up and running:
+
+  ```
+  kubectl get services
+  ```
+
+**4. Access the Store Front Application:**
+
+- The **Store Front** service is configured as a LoadBalancer, which exposes the application to the internet.
+- In the Azure Portal, go to **Kubernetes Services** > **AlgonquinPetStoreCluster** > **Services and ingresses**.
+- Locate the **store-front** service, and note the **EXTERNAL-IP** address.
+
+**5. Test the Store Front:**
+
+- Open a web browser and enter the external IP address to access the Store Front (You may need to wait about one minute).
+
+**6. Verifying the backend services:**
+
+- `order-service` is accessible at:
+
+  ```
+  http://<EXTERNAL-IP>/orders
+  ```
+
+- `product-service` is accessible at:
+
+  ```
+  http://<EXTERNAL-IP>/products
+  ```
+
+- `RabbitMQ` Management Dashboard is accessible at:
+  ```
+  http://<EXTERNAL-IP>/rabbitmq
+  ```
+  - Use the following credentials to log in:
+    - Username: myuser
+    - Password: mypassword
+
+**7. Clean Up Kubernetes Resources:**
+
+- In this step, use the K8s deployment YAML file provided: `.
+  - Open the terminal and navigate to the algonquin-pet-store-all-in-one.yaml file directory.
+  - Run the following command to delete all resources defined in the YAML file.
+    ```
+    kubectl delete -f algonquin-pet-store-all-in-one.yaml
+    ```
+
+**8. Clean Up Azure Resources:**
+
+- Delete the Primary Resource Group (AlgonquinPetStoreRG)
+- Delete the Managed Cluster Resource Group (MC_AlgonquinPetStoreRG_AlgonquinPetStoreRG_canadacentral)
+- Delete the Monitoring Resource Group (MA_defaultazuremonitorworkspace-cca_canadacentral_managed)
+- Delete the Network Watcher Resource Group (NetworkWatcherRG):
 
 ---
 
