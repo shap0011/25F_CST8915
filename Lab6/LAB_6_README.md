@@ -43,7 +43,7 @@ I'm gaining hands-on experience deploying microservices to AKS, connecting to th
 kubectl version --client
 ```
 
-<img src="./screenshots/Step_1_Install_kubectl.png" alt="" title="" width="600">
+<img src="./screenshots/Step_1_Install_kubectl.png" alt="" title="" width="700">
 
 <img src="" alt="" title="">
 
