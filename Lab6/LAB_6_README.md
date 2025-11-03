@@ -65,8 +65,6 @@ Go to https://portal.azure.com and log in with your Azure account.
 
 <img src="./screenshots/Step_2_2_Resource_Group_Created.png" alt="Create resource group" title="Create resource group" width="500">
 
-<img src="" alt="" title="" width="700">
-
 **3. Create an AKS Cluster:**
 
 - In the search bar, type **Kubernetes services** and click on it.
@@ -99,6 +97,10 @@ Go to https://portal.azure.com and log in with your Azure account.
     - **Node count:** `1`
     - Click `add`
 - Click **Review + Create**, and then **Create**. The deployment will take a few minutes.
+
+<img src="./screenshots/Step_2_3_Create_AKS_Cluster.png" alt="Create AKS Cluster" title="Create AKS Cluster" width="1000">
+
+<img src="" alt="" title="" width="700">
 
 **4. Connect to the AKS Cluster:**
 
