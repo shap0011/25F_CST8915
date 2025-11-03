@@ -43,9 +43,7 @@ I'm gaining hands-on experience deploying microservices to AKS, connecting to th
   kubectl version --client
   ```
 
-<img src="./screenshots/Step_1_Install_kubectl.png" alt="" title="" width="700">
-
-<img src="" alt="" title="">
+<img src="./screenshots/Step_1_Install_kubectl.png" alt="Install kubectl" title="Install kubectl" width="700">
 
 - You should see the client version information displayed, confirming a successful installation.
 
@@ -64,6 +62,10 @@ Go to https://portal.azure.com and log in with your Azure account.
   - Resource group name: `AlgonquinPetStoreRG`
   - Region: `Canada`.
 - Click **Review + Create** and then **Create**.
+
+<img src="./screenshots/Step_2_2_Resource_Group_Created.png" alt="Create resource group" title="Create resource group" width="500">
+
+<img src="" alt="" title="" width="700">
 
 **3. Create an AKS Cluster:**
 
