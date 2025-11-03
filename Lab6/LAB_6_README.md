@@ -12,7 +12,7 @@ I'm gaining hands-on experience deploying microservices to AKS, connecting to th
 
 ---
 
-[LINK TO VIDEO](https://youtu.be/mvO0ppE7lOY)
+<u><b>[LINK TO VIDEO](https://youtu.be/mvO0ppE7lOY)</b></u>
 
 ## Lab Tasks: Updating API Endpoints
 
@@ -240,6 +240,8 @@ You should see details of the nodes in your AKS cluster if the connection is suc
 ---
 
 ## Submission
+
+<u><b>[LINK TO VIDEO](https://youtu.be/mvO0ppE7lOY)</b></u>
 
 ### What to Submit
 
