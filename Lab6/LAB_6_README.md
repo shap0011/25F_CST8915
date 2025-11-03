@@ -141,7 +141,7 @@ Go to https://portal.azure.com and log in with your Azure account.
     kubectl get nodes
     ```
 
-<img src="./screenshots/Step_2_4_Verify_Cluster_Access.png" alt="Verify Cluster Access" title="Verify Cluster Access" width="700>
+<img src="./screenshots/Step_2_4_Verify_Cluster_Access.png" alt="Verify Cluster Access" title="Verify Cluster Access" width="700">
 
 You should see details of the nodes in your AKS cluster if the connection is successful.
 
