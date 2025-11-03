@@ -100,8 +100,6 @@ Go to https://portal.azure.com and log in with your Azure account.
 
 <img src="./screenshots/Step_2_3_Create_AKS_Cluster.png" alt="Create AKS Cluster" title="Create AKS Cluster" width="1000">
 
-<img src="" alt="" title="" width="700">
-
 **4. Connect to the AKS Cluster:**
 
 - Once the AKS cluster is deployed, navigate to the cluster in the Azure Portal.
@@ -142,6 +140,8 @@ Go to https://portal.azure.com and log in with your Azure account.
     ```
     kubectl get nodes
     ```
+
+<img src="./screenshots/Step_2_4_Verify_Cluster_Access.png" alt="Verify Cluster Access" title="Verify Cluster Access" width="700>
 
 You should see details of the nodes in your AKS cluster if the connection is successful.
 
