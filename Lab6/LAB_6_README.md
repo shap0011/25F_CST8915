@@ -195,19 +195,29 @@ You should see details of the nodes in your AKS cluster if the connection is suc
   http://<EXTERNAL-IP>/orders
   ```
 
+  <img src="./screenshots/Step_3_6_Orders.png" alt="Backend service Order" title="Backend service Order" width="400">
+
 - `product-service` is accessible at:
 
   ```
   http://<EXTERNAL-IP>/products
   ```
 
+  <img src="./screenshots/Step_3_6_Products.png" alt="Backend service products" title="Backend service products" width="400">
+
 - `RabbitMQ` Management Dashboard is accessible at:
+
   ```
   http://<EXTERNAL-IP>/rabbitmq
   ```
+
+  <img src="./screenshots/Step_3_6_rabbitmq.png" alt="Backend service RabbitMQ" title="Backend service RabbitMQ" width="800">
+
   - Use the following credentials to log in:
     - Username: myuser
     - Password: mypassword
+
+  <img src="./screenshots/Step_3_6_rabbitmq_2.png" alt="Backend service RabbitMQ Login" title="Backend service RabbitMQ Login" width="1000">
 
 **7. Clean Up Kubernetes Resources:**
 
