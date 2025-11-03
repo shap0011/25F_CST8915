@@ -12,6 +12,8 @@ I'm gaining hands-on experience deploying microservices to AKS, connecting to th
 
 ---
 
+[LINK TO VIDEO](https://youtu.be/mvO0ppE7lOY)
+
 ## Lab Tasks: Updating API Endpoints
 
 1. Read `kubectl` documentation: https://kubernetes.io/docs/reference/kubectl/
