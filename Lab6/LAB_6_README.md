@@ -175,6 +175,8 @@ You should see details of the nodes in your AKS cluster if the connection is suc
   kubectl get services
   ```
 
+  <img src="./screenshots/Step_3_Deploy_the_Algonquin_Prt_Store_Application.png" alt="Deploy the Algonquin College Store Application" title="Deploy the Algonquin College Store Application" width="700">
+
 **4. Access the Store Front Application:**
 
 - The **Store Front** service is configured as a LoadBalancer, which exposes the application to the internet.
