@@ -21,97 +21,47 @@ Explore the foundational concepts of Kubernetes, focusing on using `kubectl` for
 
 ---
 
-# Introduction
+# Step 1: Azure login
 
-You can create Kubernetes (k8s) resources using `kubectl` or using a `YAML` file. These are two different approaches to defining and deploying resources in a Kubernetes cluster.
-
-## `kubectl`
-
-`kubectl` is the command-line interface (CLI) tool for Kubernetes, allowing you to interact directly with the Kubernetes API. You can use it to create, modify, and manage resources in a cluster without needing a pre-written configuration file.
-
-Use `kubectl` commands when you:
-
-- Are testing or experimenting with Kubernetes resources.
-- Need to quickly create or modify a small number of resources.
-- Don’t require version control or reproducibility.
-
-## `YAML`
-
-`YAML`files offer a declarative approach to defining Kubernetes resources, allowing you to specify configuration files that can be reused, versioned, and easily shared. With a YAML file, you define the desired state of the resource, and then apply it to the cluster.
-
-**Use YAML files when you:**
-
-Want **reproducibility, version control,** and **maintainability** of your resources.
-Are working on **complex deployments** or **configurations**.
-Need to **collaborate** with others or integrate into **CI/CD** processes.
-
-## Step 1: Objects In Kubernetes
-
-Read: [Objects In Kubernetes](https://kubernetes.io/docs/concepts/overview/working-with-objects/)
-
-## Step 2: Understanding Kubernetes YAML Files
-
-In Kubernetes, resources are often defined and managed using YAML configuration files. YAML files enable you to declare the desired state of Kubernetes resources, such as Pods, Deployments, and Services, in a human-readable format.
-
-Let’s explore the basic components of a Kubernetes YAML file.
-
-### Key Components of a Kubernetes YAML File
-
-1. `apiVersion`:
-
-- Specifies the version of the Kubernetes API to use. The version depends on the type of resource being created.
-- Example: `apiVersion: v1`
-
-2. `kind`:
-
-- Defines the type of Kubernetes resource you want to create, such as Pod, Deployment, or Service.
-- Example: kind: Pod
-
-3. `metadata`:
-
-- Contains metadata information about the resource, like `name`, `namespace`, and `labels`, which help uniquely identify the resource within the cluster.
-- Example:
+In PowerShell terminal confirm that Azure CLI installed
 
 ```
-metadata:
-name: my-pod
-labels:
-app: my-app
+az version
 ```
 
-4. `spec`:
-
-- Provides the detailed specification of the resource. The content within `spec` varies depending on the resource type.
-- For example, for a `Pod`, `spec` includes details about the containers, images, ports, and other configurations needed for the Pod.
-
-### Example: Basic YAML Structure for a Pod
-
-Here is a simple YAML configuration for creating a Pod with an NGINX container:
+Confirm that `kubectl` installed
 
 ```
-apiVersion: v1
-kind: Pod
-metadata:
-name: my-pod
-spec:
-containers:
-
-- name: my-container
-  image: nginx
-  ports: - containerPort: 80
+kubectl version --client
 ```
 
-### Explanation of the YAML Example
+Login to Azure account under your username (email)
 
-- `**apiVersion: v1**`: Specifies that this Pod uses version v1 of the Kubernetes API.
-- `**kind: Pod**` Indicates that this file defines a Pod resource.
-- metadata:
-  - `**name: my-pod**`: Sets the name of the Pod to my-pod.
-- `spec`:
-  - `containers`: A list of containers to run inside the Pod.
-    - `name: my-container`: The name of the container within the Pod.
-    - `**image: nginx**`: Specifies the container image to use, in this case, nginx.
-    - `**ports**`: Defines the network port that the container will expose, with `**containerPort: 80**` indicating that the container listens on port `80`.
+```
+az login
+```
+
+Select the subscription email
+
+Set the proper subscription "Azure for Students"
+
+<img src="./screenshots/1_ps_bash_azure_login.png" alt="" title="Azure Account Login" width="900"/>
+
+---
+
+# Step 2: Create resource group, create an AKS Cluster
+
+## Step 2.1: Create resource group
+
+Resource group created
+
+<img src="./screenshots/2_resource_group_created.png" alt="" title="Resource group created" width="500"/>
+
+## Step 2.2: Create an AKS Cluster
+
+AKS Cluster created
+
+<img src="./screenshots/3_aks_cluster_created.png" alt="" title="AKS Cluster created" width="1000"/>
 
 ---
 
