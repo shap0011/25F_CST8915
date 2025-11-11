@@ -8,7 +8,7 @@
 
 # In this lab:
 
-I will explore the foundational concepts of Kubernetes, focusing on using kubectl for basic operations, understanding the structure of Kubernetes YAML configuration files, and creating essential Kubernetes resources such as Pods, Deployments, and Services.
+Explore the foundational concepts of Kubernetes, focusing on using `kubectl` for basic operations, understanding the structure of Kubernetes YAML configuration files, and creating essential Kubernetes resources such as Pods, Deployments, and Services.
 
 ---
 
