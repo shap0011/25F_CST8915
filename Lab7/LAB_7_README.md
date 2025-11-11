@@ -238,6 +238,10 @@ Run the following command to delete the deployment:
 kubectl delete deployments.apps my-deployment
 ```
 
+**Verify created deployment and delete:**
+
+<img src="./screenshots/7_create-and_delete_deployment_using_kubectl.png" alt="" title="Verify created deployment and delete" width="800"/>
+
 - Using `**YAML**`
 
   - Create a file `**my-deployment.yaml**` with the following content:
