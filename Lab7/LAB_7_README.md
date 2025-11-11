@@ -268,6 +268,8 @@ kubectl delete deployments.apps my-deployment
           - containerPort: 80
   ```
 
+[my-deployment.yaml](https://github.com/shap0011/Lab7_25F_CST8915/blob/main/my-deployment.yaml)
+
 - This YAML file defines a Kubernetes Deployment resource named my-deployment using the apps/v1 API version.
 
 - The Deployment specifies that **three replicas** of the application should be running, ensuring that three identical Pods are deployed and maintained
