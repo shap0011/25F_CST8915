@@ -76,14 +76,19 @@ Get nodes
 To create the resource defined in a YAML file, use the following command:
 
 ```
-kubectl apply -f <file-name>.yaml
+kubectl apply -f algonquin-pet-store-all-in-one.yaml
 ```
 
 This command instructs Kubernetes to create or update the resource based on the YAML file. YAML files provide an easy way to manage configurations, making it simple to reproduce, modify, and apply resource definitions across environments.
 
 Run the following command to delete all resources defined in the YAML file.
 
-`kubectl delete -f <file-name>.yaml`
+```
+kubectl delete -f algonquin-pet-store-all-in-one.yaml
+```
+
+Apply `YAML` file and delete
+<img src="./screenshots/5_apply_yaml_file_delete_yaml_file.png" alt="" title="Apply YAML file and delete" width="800"/>
 
 ---
 
