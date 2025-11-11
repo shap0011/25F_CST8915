@@ -88,6 +88,7 @@ kubectl delete -f algonquin-pet-store-all-in-one.yaml
 ```
 
 Apply `YAML` file and delete
+
 <img src="./screenshots/5_apply_yaml_file_delete_yaml_file.png" alt="" title="Apply YAML file and delete" width="800"/>
 
 ---
