@@ -117,7 +117,7 @@ Run the following command to delete this Pod:
 kubectl delete pods my-pod
 ```
 
-Create, describe, and delete pod commands PowerShell output
+**Create, describe, and delete pod commands PowerShell output**
 
 ```
 PS C:\Git\Lab7_25F_CST8915> kubectl run my-pod --image=nginx --port=80
@@ -217,6 +217,12 @@ kubectl get pods
 ```
 kubectl delete -f my-pod.yaml
 ```
+
+**Create and delete pod using YAML file**
+
+[my-pod.yaml](https://github.com/shap0011/Lab7_25F_CST8915/blob/main/my-pod.yaml)
+
+<img src="./screenshots/6_create_and_delete_pod_using_yaml_file.png" alt="" title="Create and delete pod using YAML file" width="800"/>
 
 ## Create a Deployment:
 
