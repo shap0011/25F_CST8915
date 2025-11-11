@@ -117,6 +117,72 @@ Run the following command to delete this Pod:
 kubectl delete pods my-pod
 ```
 
+Create, describe, and delete pod commands PowerShell output
+
+```
+PS C:\Git\Lab7_25F_CST8915> kubectl run my-pod --image=nginx --port=80
+pod/my-pod created
+PS C:\Git\Lab7_25F_CST8915> kubectl get pods
+NAME     READY   STATUS    RESTARTS   AGE
+my-pod   1/1     Running   0          11s
+PS C:\Git\Lab7_25F_CST8915> kubectl describe pods
+Name:             my-pod
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             aks-workerspool-30028735-vms1/10.224.0.5
+Start Time:       Tue, 11 Nov 2025 13:29:02 -0500
+Labels:           run=my-pod
+Annotations:      <none>
+Status:           Running
+IP:               10.244.1.228
+IPs:
+  IP:  10.244.1.228
+Containers:
+  my-pod:
+    Container ID:   containerd://8361b3e4afd44d34c4edc96f892078e020469320de076f00ad325457966f388d
+    Image:          nginx
+    Image ID:       docker.io/library/nginx@sha256:1beed3ca46acebe9d3fb62e9067f03d05d5bfa97a00f30938a0a3580563272ad
+    Port:           80/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Tue, 11 Nov 2025 13:29:03 -0500
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-rzqvd (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True
+  Initialized                 True
+  Ready                       True
+  ContainersReady             True
+  PodScheduled                True
+Volumes:
+  kube-api-access-rzqvd:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    Optional:                false
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  20s   default-scheduler  Successfully assigned default/my-pod to aks-workerspool-30028735-vms1
+  Normal  Pulling    19s   kubelet            Pulling image "nginx"
+  Normal  Pulled     19s   kubelet            Successfully pulled image "nginx" in 305ms (305ms including waiting). Image size: 59774010 bytes.
+  Normal  Created    19s   kubelet            Created container: my-pod
+  Normal  Started    19s   kubelet            Started container my-pod
+PS C:\Git\Lab7_25F_CST8915> kubectl delete pods my-pod
+pod "my-pod" deleted from default namespace
+PS C:\Git\Lab7_25F_CST8915>
+```
+
 - Using `YAML`
 
   - Save the following Pod YAML as `my-pod.yaml`
