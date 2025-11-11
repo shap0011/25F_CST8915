@@ -298,6 +298,10 @@ kubectl get deployments
 kubectl get pods
 ```
 
+**Create deployment using YAML file**
+
+<img src="./screenshots/8_create_deployment_using_yaml_file.png" alt="" title="Create deployment using YAML file" width="800"/>
+
 ## Create a Service:
 
 - Using `kubectl`:
