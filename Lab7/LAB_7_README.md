@@ -63,6 +63,12 @@ AKS Cluster created
 
 <img src="./screenshots/3_aks_cluster_created.png" alt="" title="AKS Cluster created" width="1000"/>
 
+## Step 2.3: Get nodes
+
+Get nodes
+
+<img src="./screenshots/4_get_nodes.png" alt="" title="Get nodes" width="600"/>
+
 ---
 
 ## Applying the YAML File
