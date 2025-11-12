@@ -370,10 +370,6 @@ kubectl get pods
 
   Note the `EXTERNAL-IP` assigned to the LoadBalancer Service for accessing the application externally.
 
-  [my-service.yaml](https://github.com/shap0011/Lab7_25F_CST8915/blob/main/my-service.yaml)
-
-  **Create a service using YAML file**
-
 - Delete the service:
 
   ```
@@ -387,6 +383,12 @@ kubectl get pods
   ```
 
   - Verify that you deleted all resources created.
+
+  [my-service.yaml](https://github.com/shap0011/Lab7_25F_CST8915/blob/main/my-service.yaml)
+
+  **Apply the YAML file to create a service**
+
+<img src="./screenshots/11_create_a_service_delete_the_service_delete_the_deployment.png" alt="" title="Create, verify, delete service my-service, delete my-deployment" width="700"/>
 
 ---
 
