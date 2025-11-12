@@ -312,11 +312,19 @@ kubectl get pods
     kubectl expose deployment my-deployment --type=LoadBalancer --port=80
     ```
 
-  - To delete this service:
+**nginx web server installed**
 
-    ```
-    kubectl delete service my-deployment
-    ```
+<img src="./screenshots/9_nginx_web_server_installed.png" alt="" title="nginx web server installed" width="500"/>
+
+- To delete this service:
+
+  ```
+  kubectl delete service my-deployment
+  ```
+
+**Delete service my-deployment**
+
+<img src="./screenshots/10_delete_service_my-deployment.png" alt="" title="Delete service my-deployment" width="700"/>
 
 - Using `YAML`
 
