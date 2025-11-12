@@ -556,3 +556,5 @@ The RabbitMQ deployment has one replica and defines ports 5672 and 15672, but th
 <u><b>[LINK TO VIDEO](https://youtu.be/av128DUaPwM?si=0VDzTPSFEyKW-blz)</b></u>
 
 ### 2. GitHub Repository (Submission Repo)
+
+[Other link, forked repo with new created YAML files](https://github.com/shap0011/Lab7_25F_CST8915/tree/main)
