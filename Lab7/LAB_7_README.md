@@ -470,9 +470,78 @@ This setup allows you to deploy or manage all components of the application in a
 
 - Think about how RabbitMQ handles data and the challenges it may face.
 
+```
+RabbitMQ is a message broker that temporarily stores messages in queues until consumers process them. When configured as durable, it saves data to disk to preserve state across restarts; however, without persistent storage, all queues, messages, and configurations are lost if the pod is deleted or restarted.
+```
+
 - Consider the implications of running RabbitMQ without persistent storage, especially if the pod is deleted or restarted.
 
+```
+In this lab, the RabbitMQ Deployment has no defined volumes or PersistentVolumeClaims, meaning all data is stored on temporary container storage. As a result, if the RabbitMQ pod is deleted or restarted, a new pod is created with an empty data directory, and all previously queued messages and broker state are lost.
+```
+
 - Is RabbitMQ Stateless or Stateful application?
+
+```
+RabbitMQ is a stateful application because it stores important data such as messages, queues, exchanges, and user configurations. To preserve this state across pod restarts, it should be deployed using a StatefulSet with persistent storage (such as a PersistentVolumeClaim) that ensures data is not lost when the pod is recreated.
+```
+
+**Describe RabbitMQ service**
+
+```
+kubectl describe svc rabbitmq
+```
+
+<img src="./screenshots/13_describe_rabbitmq_service.png" alt="" title="Describe RabbitMQ Service" width="400"/>
+
+1. RabbitMQ Service has type ClusterIP, so, it is internal only, not exposed outside the cluster.
+2. There’s no PersistentVolume associated with RabbitMQ in the YAML file.
+
+**Describe RabbitMQ deployment**
+
+```
+PS C:\Git\Lab7_25F_CST8915> kubectl describe deployment rabbitmq
+Name:                   rabbitmq
+Namespace:              default
+CreationTimestamp:      Wed, 12 Nov 2025 11:35:01 -0500
+Labels:                 <none>
+Annotations:            deployment.kubernetes.io/revision: 1
+Selector:               app=rabbitmq
+Replicas:               1 desired | 1 updated | 1 total | 1 available | 0 unavailable
+StrategyType:           RollingUpdate
+MinReadySeconds:        0
+RollingUpdateStrategy:  25% max unavailable, 25% max surge
+Pod Template:
+  Labels:  app=rabbitmq
+  Containers:
+   rabbitmq:
+    Image:       rabbitmq:3-management
+    Ports:       5672/TCP, 15672/TCP
+    Host Ports:  0/TCP, 0/TCP
+    Limits:
+      cpu:     500m
+      memory:  512Mi
+    Requests:
+      cpu:     250m
+      memory:  256Mi
+    Environment:
+      RABBITMQ_DEFAULT_USER:  myuser
+      RABBITMQ_DEFAULT_PASS:  mypassword
+    Mounts:                   <none>
+  Volumes:                    <none>
+  Node-Selectors:             <none>
+  Tolerations:                <none>
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Available      True    MinimumReplicasAvailable
+  Progressing    True    NewReplicaSetAvailable
+OldReplicaSets:  <none>
+NewReplicaSet:   rabbitmq-67c4c8c64f (1/1 replicas created)
+Events:          <none>
+```
+
+The RabbitMQ deployment has one replica and defines ports 5672 and 15672, but there are no volumes or PersistentVolumeClaims. So, RabbitMQ’s data will not survive restarts
 
 ---
 
