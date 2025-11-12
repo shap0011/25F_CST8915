@@ -434,6 +434,10 @@ By combining all resources into a single file, you can easily deploy the entire 
 kubectl apply -f algonquin-pet-store-all-in-one.yaml
 ```
 
+**Objects created: Deployments + Services**
+
+<img src="./screenshots/12_deployments_and_objects_created.png" alt="" title="Objects created: Deployments + Services" width="700"/>
+
 Similarly, to delete all resources defined in the file:
 
 ```
