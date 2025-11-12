@@ -470,21 +470,15 @@ This setup allows you to deploy or manage all components of the application in a
 
 - Think about how RabbitMQ handles data and the challenges it may face.
 
-```
-RabbitMQ is a message broker that temporarily stores messages in queues until consumers process them. When configured as durable, it saves data to disk to preserve state across restarts; however, without persistent storage, all queues, messages, and configurations are lost if the pod is deleted or restarted.
-```
+_RabbitMQ is a message broker that temporarily stores messages in queues until consumers process them. When configured as durable, it saves data to disk to preserve state across restarts; however, without persistent storage, all queues, messages, and configurations are lost if the pod is deleted or restarted._
 
 - Consider the implications of running RabbitMQ without persistent storage, especially if the pod is deleted or restarted.
 
-```
-In this lab, the RabbitMQ Deployment has no defined volumes or PersistentVolumeClaims, meaning all data is stored on temporary container storage. As a result, if the RabbitMQ pod is deleted or restarted, a new pod is created with an empty data directory, and all previously queued messages and broker state are lost.
-```
+_In this lab, the RabbitMQ Deployment has no defined volumes or PersistentVolumeClaims, meaning all data is stored on temporary container storage. As a result, if the RabbitMQ pod is deleted or restarted, a new pod is created with an empty data directory, and all previously queued messages and broker state are lost._
 
 - Is RabbitMQ Stateless or Stateful application?
 
-```
-RabbitMQ is a stateful application because it stores important data such as messages, queues, exchanges, and user configurations. To preserve this state across pod restarts, it should be deployed using a StatefulSet with persistent storage (such as a PersistentVolumeClaim) that ensures data is not lost when the pod is recreated.
-```
+_RabbitMQ is a stateful application because it stores important data such as messages, queues, exchanges, and user configurations. To preserve this state across pod restarts, it should be deployed using a StatefulSet with persistent storage (such as a PersistentVolumeClaim) that ensures data is not lost when the pod is recreated._
 
 **Describe RabbitMQ service**
 
