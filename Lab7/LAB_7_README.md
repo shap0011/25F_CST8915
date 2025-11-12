@@ -12,7 +12,7 @@ Explore the foundational concepts of Kubernetes, focusing on using `kubectl` for
 
 ---
 
-<u><b>[LINK TO VIDEO]()</b></u>
+<u><b>[LINK TO VIDEO](https://youtu.be/av128DUaPwM?si=0VDzTPSFEyKW-blz)</b></u>
 
 # Lab Objectives:
 
@@ -553,32 +553,6 @@ The RabbitMQ deployment has one replica and defines ports 5672 and 15672, but th
   - Deploying the Algonquin Pet Store application using the algonquin-pet-store-all-in-one.yaml file
   - Demonstrate the RabbitMQ configuration problem.
 
+<u><b>[LINK TO VIDEO](https://youtu.be/av128DUaPwM?si=0VDzTPSFEyKW-blz)</b></u>
+
 ### 2. GitHub Repository (Submission Repo)
-
-- You must create one GitHub repository for your lab submission.
-
-- This submission repository must include:
-
-  - A `README.md` file with:
-
-    - The YouTube demo video link
-
-    - Your written analysis of the RabbitMQ configuration issues, including:
-
-      - Whether RabbitMQ is a stateless or stateful application
-
-      - The implications of running RabbitMQ without persistent storage
-
-      - What happens when the RabbitMQ pod is deleted or restarted
-
-      - Potential solutions to this problem (research-based)
-
-      - Does using Azure Service Bus solve the issues identified with RabbitMQ Configuration in this Lab?
-
-      - (Optional) Notes about setup challenges or lessons learned.
-
-# How to Submit
-
-- Push your work to a **public GitHub repository** (the submission repository).
-
-- Submit the link to your submission repository as your final lab deliverable in **Brightspace**.
