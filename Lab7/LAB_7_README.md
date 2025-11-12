@@ -370,6 +370,10 @@ kubectl get pods
 
   Note the `EXTERNAL-IP` assigned to the LoadBalancer Service for accessing the application externally.
 
+  [my-service.yaml](https://github.com/shap0011/Lab7_25F_CST8915/blob/main/my-service.yaml)
+
+  **Create a service using YAML file**
+
 - Delete the service:
 
   ```
