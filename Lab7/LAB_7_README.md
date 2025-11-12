@@ -456,6 +456,16 @@ This setup allows you to deploy or manage all components of the application in a
 
 - Open the algonquin-pet-store-all-in-one.yaml file provided in this lab. Review each section carefully, paying particular attention to the RabbitMQ component, which includes both a Deployment and a Service configuration.
 
+**YAML file observation**
+
+1. `RabbitMQ Deployment` + `RabbitMQ Service`: ClusterIP, exposes `amqp 5672` and `management 15672` inside the cluster
+
+2. `Order Service Deployment` + `Order Service`: ClusterIP, `port 3000` inside cluster
+
+3. `Product Service Deployment` + `Product Service`: ClusterIP,`port 3030` inside cluster
+
+4. `Store Front (Frontend) Deployment` + `Store Front Service`: LoadBalancer, `port 80`, public EXTERNAL-IP
+
 ### 2. Identify Potential Issues with RabbitMQ Configuration:
 
 - Think about how RabbitMQ handles data and the challenges it may face.
