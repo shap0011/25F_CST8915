@@ -444,6 +444,10 @@ Similarly, to delete all resources defined in the file:
 kubectl delete -f algonquin-pet-store-all-in-one.yaml
 ```
 
+**Delete all resources defined in the file**
+
+<img src="./screenshots/14_delete_all_resources_defined-in_the_file.png" alt="" title="Delete all resources defined in the file" width="700"/>
+
 This setup allows you to deploy or manage all components of the application in a single step, simplifying the process and ensuring all parts of the application are consistently defined and deployed together.
 
 ---
