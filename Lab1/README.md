@@ -4,7 +4,7 @@
 ## Demo Video
 <!--[Lab 1 Video demo](https://youtu.be/Vq66230olQo?si=2ldy6osolDb9s9Xr)-->
 
-[![Watch the video](https://img.youtube.com/vi/Vq66230olQo/0.jpg)](https://youtu.be/Vq66230olQo)
+[Click to watch video![Watch the video](https://img.youtube.com/vi/Vq66230olQo/0.jpg)](https://youtu.be/Vq66230olQo)
 
 
 
