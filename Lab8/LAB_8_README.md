@@ -105,6 +105,14 @@ To begin, clone the [**Algonquin Pet Store (On Steroids)**](https://github.com/r
 - Navigate to the `Deployment Files` folder
 - This folder contains YAML files for deploying all necessary Kubernetes resources, including services, deployments, StatefulSets, ConfigMaps, and Secrets.
 
+<img src="./screenshots/1_deployment_files.png" alt="" title="Azure PetStore deployment files" width="300"/>
+
+<img src="./screenshots/" alt="" title="" width="500"/>
+
+<img src="./screenshots/" alt="" title="" width="500"/>
+
+<img src="./screenshots/" alt="" title="" width="500"/>
+
 ## Step 2: Set Up the AKS Cluster
 
 Create an AKS cluster with two worker nodes for this exercise. For this step, you can refer to **Lab 6**
