@@ -37,11 +37,7 @@ Create an AKS cluster with two worker nodes for this exercise. For this step, yo
 
 <img src="./screenshots/2_aks_cluster_created.png" alt="" title="AKS cluster created" width="1000"/>
 
-**NOTE: Only two node pools possible to create for _Azure for Students_ subscription**
-
-<img src="./screenshots/" alt="" title="" width="500"/>
-
-<img src="./screenshots/" alt="" title="" width="500"/>
+_NOTE: Only two node pools possible to create for `Azure for Students` subscription._
 
 ## Step 3: Set Up the AI Backing Services
 
@@ -68,6 +64,10 @@ To enable AI-generated product descriptions and image generation features, you w
 4. **Deploy the Resource**:
    - Click **Review + Create** and then **Create** to deploy the Azure OpenAI service.
 
+<img src="./screenshots/3_azure_openAI_service_deployed.png" alt="" title="Azure OpenAI service deployed" width="500"/>
+
+_NOTE:Region `East US` is disallowed. Region `East US 2` is OK._
+
 ---
 
 ### Task 2: Deploy the GPT-4 and DALL-E 3 Models
@@ -91,6 +91,8 @@ To enable AI-generated product descriptions and image generation features, you w
    - Once deployed, note down the following details for each model:
      - Deployment Name
      - Endpoint URL
+
+<img src="./screenshots/" alt="" title="" width="500"/>
 
 ---
 
