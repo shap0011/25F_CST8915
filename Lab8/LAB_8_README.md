@@ -88,7 +88,7 @@ _NOTE: Chat `gpt-4` is deprecated. Chat `gpt-4o` is available for deployment._
 
 <img src="./screenshots/5_chat_gpt-4o_deployment_details.png" alt="" title="Chat GPT-4o deployment details" width="600"/>
 
-<img src="./screenshots/11_chat_playground.png" alt="" title="Images playground. No deployments" width="900"/>
+<img src="./screenshots/11_chat_playground.png" alt="" title="Images playground. No deployments" width="1000"/>
 
 3. **Deploy DALL-E 3**:
 
