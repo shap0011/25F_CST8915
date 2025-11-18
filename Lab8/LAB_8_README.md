@@ -122,6 +122,14 @@ _As a result, only GPT-4o was deployed for text generation, and the image genera
 
 **Endpoint URL:** `https://lab8aibackingservicesshap0011.openai.azure.com/`
 
+_NOTE on image creation:_
+
+_Image model deployment (DALL·E 2/3) was not possible due to Azure for Students restrictions._
+
+_All image model regions show “no quota,” and the only region with available quota (Sweden Central) is blocked by the subscription’s allowed-locations policy._
+
+_As a result, the Images playground shows no deployments, and image generation is not supported under this subscription._
+
 ---
 
 ### Task 3: Retrieve and Configure API Keys
