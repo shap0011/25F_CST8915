@@ -64,7 +64,7 @@ To enable AI-generated product descriptions and image generation features, you w
 4. **Deploy the Resource**:
    - Click **Review + Create** and then **Create** to deploy the Azure OpenAI service.
 
-<img src="./screenshots/3_azure_openAI_service_deployed.png" alt="" title="Azure OpenAI service deployed" width="500"/>
+<img src="./screenshots/3_azure_openAI_service_deployed.png" alt="" title="Azure OpenAI service deployed" width="1000"/>
 
 _NOTE:Region `East US` is disallowed. Region `East US 2` is OK._
 
