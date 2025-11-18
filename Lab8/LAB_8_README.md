@@ -88,6 +88,8 @@ _NOTE: Chat `gpt-4` is deprecated. Chat `gpt-4o` is available for deployment._
 
 <img src="./screenshots/5_chat_gpt-4o_deployment_details.png" alt="" title="Chat GPT-4o deployment details" width="600"/>
 
+<img src="./screenshots/11_chat_playground.png" alt="" title="Images playground. No deployments" width="700"/>
+
 3. **Deploy DALL-E 3**:
 
    - Repeat the same process to deploy **DALL-E 3**.
@@ -111,6 +113,16 @@ _My subscription has no available quota for dall-e-3 in allowed regions (e.g., E
 
 _As a result, only GPT-4o was deployed for text generation, and the image generation feature is not enabled. All other lab components work normally._
 
+<img src="./screenshots/10_images_playground.png" alt="" title="Images playground. No deployments" width="500"/>
+
+_NOTE on image creation:_
+
+_Image model deployment (DALL·E 2/3) was not possible due to Azure for Students restrictions._
+
+_All image model regions show “no quota,” and the only region with available quota (Sweden Central) is blocked by the subscription’s allowed-locations policy._
+
+_As a result, the Images playground shows no deployments, and image generation is not supported under this subscription._
+
 4. **Note Configuration Details**:
    - Once deployed, note down the following details for each model:
      - Deployment Name
@@ -121,16 +133,6 @@ _As a result, only GPT-4o was deployed for text generation, and the image genera
 **Deployment name:** `gpt-4-deployment`
 
 **Endpoint URL:** `https://lab8aibackingservicesshap0011.openai.azure.com/`
-
-_NOTE on image creation:_
-
-_Image model deployment (DALL·E 2/3) was not possible due to Azure for Students restrictions._
-
-_All image model regions show “no quota,” and the only region with available quota (Sweden Central) is blocked by the subscription’s allowed-locations policy._
-
-_As a result, the Images playground shows no deployments, and image generation is not supported under this subscription._
-
-<img src="./screenshots/10_images_playground.png" alt="" title="Images playground. No deployments" width="500"/>
 
 ---
 
