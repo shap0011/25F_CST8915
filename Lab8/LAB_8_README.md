@@ -130,6 +130,8 @@ _All image model regions show “no quota,” and the only region with available
 
 _As a result, the Images playground shows no deployments, and image generation is not supported under this subscription._
 
+<img src="./screenshots/10_images_playground.png" alt="" title="Images playground. No deployments" width="500"/>
+
 ---
 
 ### Task 3: Retrieve and Configure API Keys
