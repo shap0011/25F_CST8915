@@ -31,15 +31,17 @@ To begin, clone the [**Algonquin Pet Store (On Steroids)**](https://github.com/r
 
 <img src="./screenshots/1_deployment_files.png" alt="" title="Azure PetStore deployment files" width="300"/>
 
-<img src="./screenshots/" alt="" title="" width="500"/>
-
-<img src="./screenshots/" alt="" title="" width="500"/>
-
-<img src="./screenshots/" alt="" title="" width="500"/>
-
 ## Step 2: Set Up the AKS Cluster
 
 Create an AKS cluster with two worker nodes for this exercise. For this step, you can refer to **Lab 6**
+
+<img src="./screenshots/2_aks_cluster_created.png" alt="" title="AKS cluster created" width="1000"/>
+
+NOTE: Only two node pools possible to create for _Azure for Students_ subscription
+
+<img src="./screenshots/" alt="" title="" width="500"/>
+
+<img src="./screenshots/" alt="" title="" width="500"/>
 
 ## Step 3: Set Up the AI Backing Services
 
