@@ -82,11 +82,11 @@ _NOTE: Region `East US` is disallowed. Region `East US 2` is OK._
    - Choose **GPT-4** as the model and provide a deployment name (e.g., `gpt-4-deployment`).
    - Set the deployment configuration as required and deploy the model.
 
-<img src="./screenshots/4_chat_gpt4_deployment_failure.png" alt="" title="Chat GPT-4 deployment failure" width="700"/>
+<img src="./screenshots/4_chat_gpt4_deployment_failure.png" alt="" title="Chat GPT-4 deployment failure" width="600"/>
 
 _NOTE: Chat `gpt-4` is deprecated. Chat `gpt-4o` is available for deployment._
 
-<img src="./screenshots/5_chat_gpt-4o_deployment_details.png" alt="" title="Chat GPT-4o deployment details" width="700"/>
+<img src="./screenshots/5_chat_gpt-4o_deployment_details.png" alt="" title="Chat GPT-4o deployment details" width="600"/>
 
 3. **Deploy DALL-E 3**:
 
@@ -95,13 +95,13 @@ _NOTE: Chat `gpt-4` is deprecated. Chat `gpt-4o` is available for deployment._
 
 _NOTE: Available resource location is `Sweden Central` only._
 
-<img src="./screenshots/6_deploy_dall-e-3_details.png" alt="" title="dall-e-3 deployment details" width="700"/>
+<img src="./screenshots/6_deploy_dall-e-3_details.png" alt="" title="dall-e-3 deployment details" width="600"/>
 
-<img src="./screenshots/7_deployment dall-e-3_failed.png" alt="" title="dall-e-3 deployment failed" width="700"/>
+<img src="./screenshots/7_deployment dall-e-3_failed.png" alt="" title="dall-e-3 deployment failed" width="600"/>
 
-<img src="./screenshots/8_only_sweden_central_had_available_quota.png" alt="" title="Only Sweden Central has available quota" width="700"/>
+<img src="./screenshots/8_only_sweden_central_had_available_quota.png" alt="" title="Only Sweden Central has available quota" width="600"/>
 
-<img src="./screenshots/9_east_us_2_has_no_available_quota.png" alt="" title="East US 2 has no available quota" width="700"/>
+<img src="./screenshots/9_east_us_2_has_no_available_quota.png" alt="" title="East US 2 has no available quota" width="600"/>
 
 _Note on DALL·E 3 Deployment:_
 
