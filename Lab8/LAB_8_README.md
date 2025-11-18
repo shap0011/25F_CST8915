@@ -116,6 +116,12 @@ _As a result, only GPT-4o was deployed for text generation, and the image genera
      - Deployment Name
      - Endpoint URL
 
+**Model:** `gpt-4o`
+
+**Deployment name:** `gpt-4-deployment`
+
+**Endpoint URL:** `https://lab8aibackingservicesshap0011.openai.azure.com/`
+
 ---
 
 ### Task 3: Retrieve and Configure API Keys
