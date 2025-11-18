@@ -37,7 +37,7 @@ Create an AKS cluster with two worker nodes for this exercise. For this step, yo
 
 <img src="./screenshots/2_aks_cluster_created.png" alt="" title="AKS cluster created" width="1000"/>
 
-NOTE: Only two node pools possible to create for _Azure for Students_ subscription
+**NOTE: Only two node pools possible to create for _Azure for Students_ subscription**
 
 <img src="./screenshots/" alt="" title="" width="500"/>
 
