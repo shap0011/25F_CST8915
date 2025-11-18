@@ -66,7 +66,7 @@ To enable AI-generated product descriptions and image generation features, you w
 
 <img src="./screenshots/3_azure_openAI_service_deployed.png" alt="" title="Azure OpenAI service deployed" width="1000"/>
 
-_NOTE:Region `East US` is disallowed. Region `East US 2` is OK._
+_NOTE: Region `East US` is disallowed. Region `East US 2` is OK._
 
 ---
 
@@ -82,17 +82,39 @@ _NOTE:Region `East US` is disallowed. Region `East US 2` is OK._
    - Choose **GPT-4** as the model and provide a deployment name (e.g., `gpt-4-deployment`).
    - Set the deployment configuration as required and deploy the model.
 
+<img src="./screenshots/4_chat_gpt4_deployment_failure.png" alt="" title="Chat GPT-4 deployment failure" width="700"/>
+
+_NOTE: Chat `gpt-4` is deprecated. Chat `gpt-4o` is available for deployment._
+
+<img src="./screenshots/5_chat_gpt-4o_deployment_details.png" alt="" title="Chat GPT-4o deployment details" width="700"/>
+
 3. **Deploy DALL-E 3**:
 
    - Repeat the same process to deploy **DALL-E 3**.
    - Use a descriptive deployment name (e.g., `dalle-3-deployment`).
 
+_NOTE: Available resource location is `Sweden Central` only._
+
+<img src="./screenshots/6_deploy_dall-e-3_details.png" alt="" title="dall-e-3 deployment details" width="700"/>
+
+<img src="./screenshots/7_deployment dall-e-3_failed.png" alt="" title="dall-e-3 deployment failed" width="700"/>
+
+<img src="./screenshots/8_only_sweden_central_had_available_quota.png" alt="" title="Only Sweden Central has available quota" width="700"/>
+
+<img src="./screenshots/9_east_us_2_has_no_available_quota.png" alt="" title="East US 2 has no available quota" width="700"/>
+
+_Note on DALL·E 3 Deployment:_
+
+_dall-e-3 could not be deployed due to Azure for Students restrictions._
+
+_My subscription has no available quota for dall-e-3 in allowed regions (e.g., East US 2), and the only region with quota (Sweden Central) is blocked by the subscription’s location policy._
+
+_As a result, only GPT-4o was deployed for text generation, and the image generation feature is not enabled. All other lab components work normally._
+
 4. **Note Configuration Details**:
    - Once deployed, note down the following details for each model:
      - Deployment Name
      - Endpoint URL
-
-<img src="./screenshots/" alt="" title="" width="500"/>
 
 ---
 
