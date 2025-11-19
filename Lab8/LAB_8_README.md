@@ -398,6 +398,8 @@ Once inside the MongoDB shell, run:
 show dbs
 ```
 
+<img src="./screenshots/51_show_dbs.png" alt="" title="List all databases available on the MongoDB server" width="200"/>
+
 Explanation: The show dbs command lists all databases available on the MongoDB server. You should see a list that includes the orderdb, which stores order-related data for the application.
 
 #### **3- Switch to the Order Database**
