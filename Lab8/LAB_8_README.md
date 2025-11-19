@@ -191,9 +191,9 @@ Example configuration in the YAML file:
 
 ## Step 4: Deploy the ConfigMaps and Secrets
 
-<img src="./screenshots/14_get_credentials_get_services.png" alt="" title="Get credentials. Get services" width="800"/>
+<img src="./screenshots/14_get_credentials_get_services.png" alt="" title="Get credentials. Get services" width="700"/>
 
-<img src="./screenshots/15_get_nodes.png" alt="" title="Get Nodes" width="700"/>
+<img src="./screenshots/15_get_nodes.png" alt="" title="Get Nodes" width="600"/>
 
 - Deploy the ConfigMap for RabbitMQ Plugins:
   ```bash
