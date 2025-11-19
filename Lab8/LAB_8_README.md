@@ -238,6 +238,8 @@ kubectl apply -f aps-all-in-one.yaml
 
   <img src="./screenshots/23_validate_deployment.png" alt="" title="Validate deployment" width="700"/>
 
+  <img src="./screenshots/24_default_namespaces.png" alt="" title="Default namespaces" width="700"/>
+
 - Check Pods and Services:
   ```bash
   kubectl get pods
