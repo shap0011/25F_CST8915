@@ -473,6 +473,8 @@ _Completed._
 
 2. **Clone the Forked Repositories**:
 
+<img src="./screenshots/56_repositories_forked_and_cloned.png" alt="" title="Repositories forked and cloned" width="600"/>
+
 ---
 
 ### **Step 2: Build and Push Docker Images**
