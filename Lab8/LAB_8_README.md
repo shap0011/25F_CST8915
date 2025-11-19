@@ -345,6 +345,10 @@ kubectl get pods
   kubectl top nodes
   ```
 
+<img src="./screenshots/45_monitor_resource_usage_top_pods.png" alt="" title="Monitor resource usage. Top pods" width="600"/>
+  
+<img src="./screenshots/46_monitore_resource_usage_top_nodes.png" alt="" title="Monitor resource usage. Top nodes" width="800"/>
+
 ## Step 8: Explore Advanced Features
 
 ### AI-Generated Descriptions and Images:
