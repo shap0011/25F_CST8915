@@ -245,10 +245,16 @@ kubectl apply -f aps-all-in-one.yaml
   <img src="./screenshots/26_stateful_sets.png" alt="" title="Stateful sets" width="800"/>
 
 - Check Pods and Services:
+
   ```bash
   kubectl get pods
   kubectl get services
   ```
+
+  <img src="./screenshots/27_get_pods.png" alt="" title="Get pods" width="800"/>
+
+  <img src="./screenshots/28_get_services.png" alt="" title="Get services" width="800"/>
+
 - Test Frontend Access:
   - Locate the external IPs for store-front and store-admin services:
   ```bash
