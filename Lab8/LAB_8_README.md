@@ -331,6 +331,8 @@ kubectl scale deployment order-service --replicas=3
 kubectl get pods
 ```
 
+<img src="./screenshots/43_check_scaling.png" alt="" title="Check scaling" width="600"/>
+
 - Monitor Resource Usage:
 
   - Enable metrics server for resource monitoring.
