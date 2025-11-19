@@ -289,7 +289,7 @@ kubectl apply -f admin-tasks.yaml
   kubectl logs -f deployment/virtual-customer
   ```
 
-  <img src="./screenshots/34_create_order_monitor_virtual_customer.png" alt="" title="Monitor virtual customer. Create order" width="800"/>
+  <img src="./screenshots/34_create_order_monitor_virtual_customer.png" alt="" title="Monitor virtual customer. Create order" width="1000"/>
 
 - Monitor Virtual Worker:
 
@@ -297,9 +297,9 @@ kubectl apply -f admin-tasks.yaml
   kubectl logs -f deployment/virtual-worker
   ```
 
-  <img src="./screenshots/35_process_order_monitor_vurtual_worker.png" alt="" title="Monitor virtual worker. Process order" width="800"/>
+  <img src="./screenshots/35_process_order_monitor_vurtual_worker.png" alt="" title="Monitor virtual worker. Process order" width="1000"/>
 
-  <img src="./screenshots/36_orders_being_processed.png" alt="" title="Orders being processes by virtual worker." width="800"/>
+  <img src="./screenshots/36_orders_being_processed.png" alt="" title="Orders being processes by virtual worker." width="1000"/>
 
 ## Step 7: Scale and Monitor Services
 
