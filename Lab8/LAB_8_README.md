@@ -263,12 +263,15 @@ kubectl apply -f aps-all-in-one.yaml
   kubectl get services
   ```
 
-  <img src="./screenshots/29_services_and_ingresses.png" alt="" title="Services and Ingresses" width="800"/>
-
-  - Access the Store Front app at the external IP on port 80.
-
 <img src="./screenshots/29_services_and_ingresses.png" alt="" title="Services and Ingresses" width="800"/>
-  - Access the Store Admin app at the external IP on port 80.
+
+- Access the Store Front app at the external IP on port 80.
+
+<img src="./screenshots/30_store_front.png" alt="" title="Store Front" width="800"/>
+
+- Access the Store Admin app at the external IP on port 80.
+
+<img src="./screenshots/31_store_admin.png" alt="" title="Store Admin" width="800"/>
 
 ## Step 6: Deploy Virtual Customer and Worker
 
