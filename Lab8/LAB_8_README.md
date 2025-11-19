@@ -279,6 +279,8 @@ kubectl apply -f aps-all-in-one.yaml
 kubectl apply -f admin-tasks.yaml
 ```
 
+<img src="./screenshots/32_run_admin_task_as_a_container.png" alt="" title="Run admin task as a container" width="700"/>
+
 - Monitor Virtual Customer:
   ```bash
   kubectl logs -f deployment/virtual-customer
