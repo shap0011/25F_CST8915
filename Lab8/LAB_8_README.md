@@ -232,13 +232,17 @@ Example configuration in the YAML file:
 kubectl apply -f aps-all-in-one.yaml
 ```
 
-  <img src="./screenshots/22_deployments_and_services_created.png" alt="" title="Deployments and services created" width="600"/>
+  <img src="./screenshots/22_comment_out_dalle.png" alt="" title="Update aps-all-in-one.yaml file" width="700"/>
+
+  <img src="./screenshots/23_create_deployments_and_services.png" alt="" title="Create deployments and services" width="700"/>
 
 ### Validate the Deployment
 
-  <img src="./screenshots/23_validate_deployment.png" alt="" title="Validate deployment" width="700"/>
+  <img src="./screenshots/24_validate_deployments.png" alt="" title="Validate deployment" width="700"/>
 
-  <img src="./screenshots/24_default_namespaces.png" alt="" title="Default namespaces" width="700"/>
+  <img src="./screenshots/25_default_namespaces.png" alt="" title="Default namespaces" width="1000"/>
+
+  <img src="./screenshots/26_stateful_sets.png" alt="" title="Stateful sets" width="800"/>
 
 - Check Pods and Services:
   ```bash
