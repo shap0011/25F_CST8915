@@ -436,7 +436,7 @@ db.orders.find()
 
 Explanation: The db.orders.find() command fetches and displays all documents (records) in the orders collection. This allows you to view the stored order data, including details such as customer information, products, and order status.
 
-<img src="./screenshots/55_exit_db.png" alt="" title="Exit database" width="150"/>
+<img src="./screenshots/55_exit_db.png" alt="" title="Exit database" width="100"/>
 
 #### By following these steps, you will:
 
