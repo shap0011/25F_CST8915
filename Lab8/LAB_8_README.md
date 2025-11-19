@@ -313,7 +313,7 @@ kubectl apply -f admin-tasks.yaml
 
 <img src="./screenshots/39_nodes.png" alt="" title="Nodes" width="1000"/>
 
-<img src="./screenshots/40_delete_admin_tasks.png" alt="" title="Delete admin tasks" width="400"/>
+<img src="./screenshots/40_delete_admin_tasks.png" alt="" title="Delete admin tasks" width="600"/>
 
 - Scale the `order-service` to 3 replicas:
 
