@@ -321,6 +321,10 @@ kubectl apply -f admin-tasks.yaml
 kubectl scale deployment order-service --replicas=3
 ```
 
+<img src="./screenshots/41_scale_order_service_to_3_replicas.png" alt="" title="Scale order-service to 3 replicas" width="600"/>
+
+<img src="./screenshots/42_scale_order_service_to_3_replicas.png" alt="" title="Scale order-service to 3 replicas" width="1000"/>
+
 - Check Scaling:
 
 ```bash
