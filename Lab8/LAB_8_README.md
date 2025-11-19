@@ -201,7 +201,7 @@ Example configuration in the YAML file:
   kubectl apply -f config-maps.yaml
   ```
 
-  <img src="./screenshots/16_configmap_deployed.png" alt="" title="ConfigMap created" width="600"/>
+<img src="./screenshots/16_configmap_deployed.png" alt="" title="ConfigMap created" width="600"/>
 
 - Create and Deploy the Secret for OpenAI API:
   - Make sure that you have replaced Base64-encoded-API-KEY in secrets.yaml with your Base64-encoded OpenAI API key.
@@ -222,9 +222,9 @@ Example configuration in the YAML file:
   kubectl get secrets
   ```
 
-  <img src="./screenshots/20_configmaps_and_secrets_verified.png" alt="" title="ConfigMaps and secrets verified" width="600"/>
+<img src="./screenshots/20_configmaps_and_secrets_verified.png" alt="" title="ConfigMaps and secrets verified" width="600"/>
 
-  <img src="./screenshots/21_configuration_updated.png" alt="" title="Configuration updated" width="250"/>
+<img src="./screenshots/21_configuration_updated.png" alt="" title="Configuration updated" width="250"/>
 
 ## Step 5: Deploy the Application
 
@@ -232,17 +232,17 @@ Example configuration in the YAML file:
 kubectl apply -f aps-all-in-one.yaml
 ```
 
-  <img src="./screenshots/22_comment_out_dalle.png" alt="" title="Update aps-all-in-one.yaml file" width="700"/>
+<img src="./screenshots/22_comment_out_dalle.png" alt="" title="Update aps-all-in-one.yaml file" width="700"/>
 
-  <img src="./screenshots/23_create_deployments_and_services.png" alt="" title="Create deployments and services" width="700"/>
+<img src="./screenshots/23_create_deployments_and_services.png" alt="" title="Create deployments and services" width="700"/>
 
 ### Validate the Deployment
 
-  <img src="./screenshots/24_validate_deployments.png" alt="" title="Validate deployment" width="700"/>
+<img src="./screenshots/24_validate_deployments.png" alt="" title="Validate deployment" width="700"/>
 
-  <img src="./screenshots/25_default_namespaces.png" alt="" title="Default namespaces" width="1000"/>
+<img src="./screenshots/25_default_namespaces.png" alt="" title="Default namespaces" width="1000"/>
 
-  <img src="./screenshots/26_stateful_sets.png" alt="" title="Stateful sets" width="800"/>
+<img src="./screenshots/26_stateful_sets.png" alt="" title="Stateful sets" width="800"/>
 
 - Check Pods and Services:
 
@@ -251,16 +251,23 @@ kubectl apply -f aps-all-in-one.yaml
   kubectl get services
   ```
 
-  <img src="./screenshots/27_get_pods.png" alt="" title="Get pods" width="800"/>
+<img src="./screenshots/27_get_pods.png" alt="" title="Get pods" width="800"/>
 
-  <img src="./screenshots/28_get_services.png" alt="" title="Get services" width="800"/>
+<img src="./screenshots/28_get_services.png" alt="" title="Get services" width="800"/>
 
 - Test Frontend Access:
+
   - Locate the external IPs for store-front and store-admin services:
+
   ```bash
   kubectl get services
   ```
+
+  <img src="./screenshots/29_services_and_ingresses.png" alt="" title="Services and Ingresses" width="800"/>
+
   - Access the Store Front app at the external IP on port 80.
+
+<img src="./screenshots/29_services_and_ingresses.png" alt="" title="Services and Ingresses" width="800"/>
   - Access the Store Admin app at the external IP on port 80.
 
 ## Step 6: Deploy Virtual Customer and Worker
