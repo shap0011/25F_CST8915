@@ -364,6 +364,8 @@ kubectl get pods
   kubectl port-forward service/rabbitmq 15672:15672
   ```
 
+  <img src="./screenshots/47_access_the_rabbitmq_management_ui.png" alt="" title="Access the RabbitMQ management UI" width="600"/>
+
   The kubectl port-forward command is used to forward a local port to a port on a Kubernetes resource (e.g., a Pod or Service). This allows you to access the application running in the cluster from your local machine without exposing it externally.
 
 - Login with the default credentials (`username`/`password`).
