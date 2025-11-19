@@ -279,7 +279,9 @@ kubectl apply -f aps-all-in-one.yaml
 kubectl apply -f admin-tasks.yaml
 ```
 
-<img src="./screenshots/32_run_admin_task_as_a_container.png" alt="" title="Run admin task as a container" width="700"/>
+<img src="./screenshots/32_run_admin_task_as_a_container.png" alt="" title="Run admin task as a container" width="600"/>
+
+<img src="./screenshots/33_virtual_customer_worker_namespaces.png" alt="" title="Virtual customer and virtual worker default namespaces" width="1000"/>
 
 - Monitor Virtual Customer:
   ```bash
