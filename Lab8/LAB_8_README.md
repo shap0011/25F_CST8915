@@ -224,7 +224,7 @@ Example configuration in the YAML file:
 
   <img src="./screenshots/20_configmaps_and_secrets_verified.png" alt="" title="ConfigMaps and secrets verified" width="600"/>
 
-  <img src="./screenshots/21_configuration_updated.png" alt="" title="Configuration updated" width="300"/>
+  <img src="./screenshots/21_configuration_updated.png" alt="" title="Configuration updated" width="250"/>
 
 ## Step 5: Deploy the Application
 
