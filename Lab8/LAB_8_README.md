@@ -289,7 +289,7 @@ kubectl apply -f admin-tasks.yaml
   kubectl logs -f deployment/virtual-customer
   ```
 
-  <img src="./screenshots/34_create_order_monitor_virtual_customer.png" alt="" title="Monitor virtual customer. Create order" width="1000"/>
+<img src="./screenshots/34_create_order_monitor_virtual_customer.png" alt="" title="Monitor virtual customer. Create order" width="1000"/>
 
 - Monitor Virtual Worker:
 
@@ -297,13 +297,21 @@ kubectl apply -f admin-tasks.yaml
   kubectl logs -f deployment/virtual-worker
   ```
 
-  <img src="./screenshots/35_process_order_monitor_vurtual_worker.png" alt="" title="Monitor virtual worker. Process order" width="1000"/>
+<img src="./screenshots/35_process_order_monitor_vurtual_worker.png" alt="" title="Monitor virtual worker. Process order" width="1000"/>
 
-  <img src="./screenshots/36_orders_being_processed.png" alt="" title="Orders being processes by virtual worker." width="1000"/>
+<img src="./screenshots/36_orders_being_processed.png" alt="" title="Orders being processes by virtual worker." width="1000"/>
 
 ## Step 7: Scale and Monitor Services
 
+<img src="./screenshots/36_orders_being_processed.png" alt="" title="Orders being processes by virtual worker." width="1000"/>
+
 ### Scale Deployments:
+
+<img src="./screenshots/37_diagnostic_updated.png" alt="" title="Diagnostic updated" width="300"/>
+
+<img src="./screenshots/38_node_pods.png" alt="" title="Note pods" width="1000"/>
+
+<img src="./screenshots/39_nodes.png" alt="" title="Nodes" width="1000"/>
 
 - Scale the `order-service` to 3 replicas:
 
