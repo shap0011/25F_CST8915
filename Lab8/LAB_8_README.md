@@ -232,7 +232,7 @@ Example configuration in the YAML file:
 kubectl apply -f aps-all-in-one.yaml
 ```
 
-  <img src="./screenshots/22_deployments_and_services_created.png" alt="" title="Deployments and services created" width="300"/>
+  <img src="./screenshots/22_deployments_and_services_created.png" alt="" title="Deployments and services created" width="600"/>
 
 ### Validate the Deployment
 
