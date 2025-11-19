@@ -432,6 +432,8 @@ Retrieve all documents in the orders collection:
 db.orders.find()
 ```
 
+<img src="./screenshots/54_query_the_orders_collection.png" alt="" title="All documents (records) in the orders collection" width="800"/>
+
 Explanation: The db.orders.find() command fetches and displays all documents (records) in the orders collection. This allows you to view the stored order data, including details such as customer information, products, and order status.
 
 #### By following these steps, you will:
