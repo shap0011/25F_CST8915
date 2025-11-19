@@ -196,19 +196,31 @@ Example configuration in the YAML file:
 <img src="./screenshots/15_get_nodes.png" alt="" title="Get Nodes" width="600"/>
 
 - Deploy the ConfigMap for RabbitMQ Plugins:
+
   ```bash
   kubectl apply -f config-maps.yaml
   ```
+
+  <img src="./screenshots/16_configmap_deployed.png" alt="" title="ConfigMap created" width="600"/>
+
 - Create and Deploy the Secret for OpenAI API:
   - Make sure that you have replaced Base64-encoded-API-KEY in secrets.yaml with your Base64-encoded OpenAI API key.
   ```bash
   kubectl apply -f secrets.yaml
   ```
+
+<img src="./screenshots/17_secret_created.png" alt="" title="Secret created" width="600"/>
+
+<img src="./screenshots/18_openai_dalle_commented_out.png" alt="" title="Secrets YAML file updated" width="600"/>
+
+<img src="./screenshots/19_secret_created.png" alt="" title="Secrets YAML file updated" width="600"/>
+
 - Verify:
   ```bash
   kubectl get configmaps
   kubectl get secrets
   ```
+  <img src="./screenshots/20_configmaps_and_secrets_verified.png" alt="" title="ConfigMaps and secrets verified" width="600"/>
 
 ## Step 5: Deploy the Application
 
