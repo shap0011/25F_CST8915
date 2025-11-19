@@ -138,17 +138,20 @@ _As a result, the Images playground shows no deployments, and image generation i
 
 ### Task 3: Retrieve and Configure API Keys
 
-1. **Get API Keys**:
+1. **Get API Keys:**
 
    - Go to the **Keys and Endpoints** section of your Azure OpenAI resource.
    - Copy the **API Key (API key 1)** and **Endpoint URL**.
 
 2. **Base64 Encode the API Key**:
+
    - Use the following command to Base64 encode your API key:
      ```bash
      echo -n "<your-api-key>" | base64
      ```
    - Replace `<your-api-key>` with your actual API key.
+
+   hello
 
 ---
 
