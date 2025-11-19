@@ -467,6 +467,8 @@ You are asked to fork the necessary service repositories, build Docker images fo
    | `virtual-customer` | Simulates customer order creation        | [virtual-customer-L8](https://github.com/ramymohamed10/virtual-customer-L8) |
    | `virtual-worker`   | Simulates order completion               | [virtual-worker-L8](https://github.com/ramymohamed10/virtual-worker-L8)     |
 
+_Completed._
+
 2. **Clone the Forked Repositories**:
 
 ---
