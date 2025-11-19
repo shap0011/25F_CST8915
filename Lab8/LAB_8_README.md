@@ -370,6 +370,8 @@ kubectl get pods
 
 - Login with the default credentials (`username`/`password`).
 
+ <img src="./screenshots/48_rabbitmq_login.png" alt="" title="Login RabbitMQ" width="1100"/>
+
 ### MongoDB Shell Access and Database Exploration
 
 In this section, you will use the MongoDB shell to interact with the `orderdb` database, which stores order information for the Algonquin Pet Store application. Follow the steps below to connect to the MongoDB pod and explore its contents.
