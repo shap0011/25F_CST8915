@@ -420,6 +420,8 @@ Display all collections in the orderdb database:
 show collections
 ```
 
+<img src="./screenshots/53_collections_in_orderdb_database.png" alt="" title="Display all collections in the orderdb database" width="200"/>
+
 Explanation: The show collections command lists all collections (similar to tables in relational databases) in the current database. The orders collection contains the order data.
 
 #### **5- Query the Orders Collection**
