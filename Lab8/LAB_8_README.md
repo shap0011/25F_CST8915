@@ -236,6 +236,8 @@ kubectl apply -f aps-all-in-one.yaml
 
 ### Validate the Deployment
 
+  <img src="./screenshots/23_validate_deployment.png" alt="" title="Validate deployment" width="700"/>
+
 - Check Pods and Services:
   ```bash
   kubectl get pods
