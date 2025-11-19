@@ -376,6 +376,8 @@ kubectl get pods
 
 In this section, you will use the MongoDB shell to interact with the `orderdb` database, which stores order information for the Algonquin Pet Store application. Follow the steps below to connect to the MongoDB pod and explore its contents.
 
+ <img src="./screenshots/49_get_pods.png" alt="" title="Get pods" width="600"/>
+
 #### **1- Access the MongoDB Shell**
 
 Run the following command to connect to the MongoDB shell inside the running MongoDB pod:
