@@ -475,6 +475,8 @@ _Completed._
 
 <img src="./screenshots/56_repositories_forked_and_cloned.png" alt="" title="Repositories forked and cloned" width="600"/>
 
+_Completed_
+
 ---
 
 ### **Step 2: Build and Push Docker Images**
