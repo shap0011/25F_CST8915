@@ -216,11 +216,15 @@ Example configuration in the YAML file:
 <img src="./screenshots/19_secret_created.png" alt="" title="Secrets YAML file updated" width="600"/>
 
 - Verify:
+
   ```bash
   kubectl get configmaps
   kubectl get secrets
   ```
+
   <img src="./screenshots/20_configmaps_and_secrets_verified.png" alt="" title="ConfigMaps and secrets verified" width="600"/>
+
+  <img src="./screenshots/21_configuration_updated.png" alt="" title="Configuration updated" width="400"/>
 
 ## Step 5: Deploy the Application
 
