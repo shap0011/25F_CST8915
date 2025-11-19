@@ -408,6 +408,8 @@ Explanation: The show dbs command lists all databases available on the MongoDB s
 use orderdb
 ```
 
+<img src="./screenshots/52_switch_to_orderdb.png" alt="" title="Active database for subsequent queries and commands" width="200"/>
+
 Explanation: The use orderdb command selects the orderdb database, making it the active database for subsequent queries and commands.
 
 #### **4- List Collections in the Database**
