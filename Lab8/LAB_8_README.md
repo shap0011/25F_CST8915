@@ -209,9 +209,9 @@ Example configuration in the YAML file:
   kubectl apply -f secrets.yaml
   ```
 
-<img src="./screenshots/17_secret_created.png" alt="" title="Secret created" width="600"/>
+<img src="./screenshots/17_secret_created.png" alt="" title="Secret created" width="700"/>
 
-<img src="./screenshots/18_openai_dalle_commented_out.png" alt="" title="Secrets YAML file updated" width="600"/>
+<img src="./screenshots/18_openai_dalle_commented_out.png" alt="" title="Secrets YAML file updated" width="800"/>
 
 <img src="./screenshots/19_secret_created.png" alt="" title="Secrets YAML file updated" width="600"/>
 
