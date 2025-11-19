@@ -299,6 +299,8 @@ kubectl apply -f admin-tasks.yaml
 
   <img src="./screenshots/35_process_order_monitor_vurtual_worker.png" alt="" title="Monitor virtual worker. Process order" width="800"/>
 
+  <img src="./screenshots/36_orders_being_processed.png" alt="" title="Orders being processes by virtual worker." width="800"/>
+
 ## Step 7: Scale and Monitor Services
 
 ### Scale Deployments:
