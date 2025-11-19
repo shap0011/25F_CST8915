@@ -386,6 +386,8 @@ Run the following command to connect to the MongoDB shell inside the running Mon
 kubectl exec -it <mongodb-pod-name> -- mongo
 ```
 
+<img src="./screenshots/50_connect_mongodb_shell.png" alt="" title="Connect MongoDB shell" width="600"/>
+
 Explanation: This command uses kubectl exec to open an interactive shell (-it) inside the MongoDB pod and starts the MongoDB shell program (mongo).
 
 #### **2- List All Databases**
