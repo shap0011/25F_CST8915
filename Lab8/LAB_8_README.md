@@ -565,6 +565,8 @@ docker push dockeridolgadh2022/virtual-worker-l8:task1
 
 <img src="./screenshots/60_all_images_build_and_pushed.png" alt="" title="All images build and pushed to Docker Hub" width="1000"/>
 
+<img src="./screenshots/61_docker_images.png" alt="" title="Docker images" width="800"/>
+
 ---
 
 ### **Step 3: Update `aps-all-in-one.yaml`**
