@@ -597,11 +597,11 @@ docker push dockeridolgadh2022/virtual-worker-l8:task1
 
 4. Order submission
 
-<img src="./screenshots/67_order_submission.png" alt="" title="Order submission" width="700"/>
+<img src="./screenshots/67_order_submission.png" alt="" title="Order submission" width="1000"/>
 
 5. Order processing
 
-<img src="./screenshots/68_order_processing.png" alt="" title="Order processing" width="700"/>
+<img src="./screenshots/68_order_processing.png" alt="" title="Order processing" width="1000"/>
 
 6. Pods running
 
