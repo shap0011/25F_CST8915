@@ -571,6 +571,14 @@ docker push dockeridolgadh2022/virtual-worker-l8:task1
 
 ### **Step 3: Update `aps-all-in-one.yaml`**
 
+1. Update `aps-all-in-one.yaml` - _Completed_
+
+<img src="./screenshots/62_apply_updated_aps-all-in-one_yaml.png" alt="" title="Apply updated aps-all-in-one.yaml" width="700"/>
+
+2. Update `admin-tasks.yaml` - _Completed_
+
+<img src="./screenshots/63_apply_updated_admin-tasks_yaml.png" alt="" title="Apply updated admin-tasks.yaml" width="700"/>
+
 ---
 
 ### **Step 4: Test the Application**
