@@ -583,6 +583,30 @@ docker push dockeridolgadh2022/virtual-worker-l8:task1
 
 ### **Step 4: Test the Application**
 
+1. All pods running
+
+<img src="./screenshots/64_check_pods_running.png" alt="" title="Check all pods running" width="700"/>
+
+2. Kubernetes is running new (dockeridolgadh2022) images
+
+<img src="./screenshots/65_kubernetes_is_using_new_images.png" alt="" title="Kubernetes is using new images" width="700"/>
+
+3. Get the external IPs, test the website
+
+<img src="./screenshots/66_get_external_ip.png" alt="" title="Services & External IPs" width="700"/>
+
+4. Order submission
+
+<img src="./screenshots/67_order_submission.png" alt="" title="Order submission" width="700"/>
+
+5. Order processing
+
+<img src="./screenshots/68_order_processing.png" alt="" title="Order processing" width="700"/>
+
+6. Pods running
+
+<img src="./screenshots/69_pods_running.png" alt="" title="Pods running" width="700"/>
+
 ## **Task 2: Improving and Extending the Deployment**
 
 Currently, the deployment YAML runs `MongoDB` and `RabbitMQ` inside the Kubernetes cluster, but data is **ephemeral**. If the pods are deleted or the cluster restarts, all messages and database data are lost.
