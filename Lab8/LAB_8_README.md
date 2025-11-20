@@ -507,6 +507,64 @@ docker push dockeridolgadh2022/store-front-l8:task1
 
 <img src="./screenshots/59_push_the_image.png" alt="" title="Push the image" width="600"/>
 
+5. Build and push image for `store-admin-L8`
+
+```
+cd /c/Git/25F_CST8915_Lab8/store-admin-L8
+docker build -t dockeridolgadh2022/store-admin-l8:task1 .
+docker push dockeridolgadh2022/store-admin-l8:task1
+```
+
+6. Build and push image for `order-service-L8`
+
+```
+cd /c/Git/25F_CST8915_Lab8/order-service-L8
+docker build -t dockeridolgadh2022/order-service-l8:task1 .
+docker push dockeridolgadh2022/order-service-l8:task1
+```
+
+7. Build and push image for `product-service-L8`
+
+```
+cd /c/Git/25F_CST8915_Lab8/product-service-L8
+docker build -t dockeridolgadh2022/product-service-l8:task1 .
+docker push dockeridolgadh2022/product-service-l8:task1
+```
+
+8. Build and push image for `makeline-service-L8`
+
+```
+cd /c/Git/25F_CST8915_Lab8/makeline-service-L8
+docker build -t dockeridolgadh2022/makeline-service-l8:task1 .
+docker push dockeridolgadh2022/makeline-service-l8:task1
+```
+
+9. Build and push image for `ai-service-L8`
+
+```
+cd /c/Git/25F_CST8915_Lab8/ai-service-L8
+docker build -t dockeridolgadh2022/ai-service-l8:task1 .
+docker push dockeridolgadh2022/ai-service-l8:task1
+```
+
+10. Build and push image for `virtual-customer-L8`
+
+```
+cd /c/Git/25F_CST8915_Lab8/virtual-customer-L8
+docker build -t dockeridolgadh2022/virtual-customer-l8:task1 .
+docker push dockeridolgadh2022/virtual-customer-l8:task1
+```
+
+11. Build and push image for `virtual-worker-L8`
+
+```
+cd /c/Git/25F_CST8915_Lab8/virtual-worker-L8
+docker build -t dockeridolgadh2022/virtual-worker-l8:task1 .
+docker push dockeridolgadh2022/virtual-worker-l8:task1
+```
+
+<img src="./screenshots/60_all_images_build_and_pushed.png" alt="" title="All images build and pushed to Docker Hub" width="1000"/>
+
 ---
 
 ### **Step 3: Update `aps-all-in-one.yaml`**
