@@ -475,11 +475,37 @@ _Completed._
 
 <img src="./screenshots/56_repositories_forked_and_cloned.png" alt="" title="Repositories forked and cloned" width="600"/>
 
-_Completed_
+_Completed._
 
 ---
 
 ### **Step 2: Build and Push Docker Images**
+
+1. Start Docker Desktop
+
+2. Docker login
+
+```
+docker login
+```
+
+<img src="./screenshots/57_docker_login.png" alt="" title="Docker login" width="600"/>
+
+3. Build the image for `store-front` (tag it with Docker Hub name)
+
+```
+docker build -t dockeridolgadh2022/store-front-l8:task1 .
+```
+
+<img src="./screenshots/58_build_image_store-front.png" alt="" title="Build image" width="600"/>
+
+4. Push the image (`store-front`)
+
+```
+docker push dockeridolgadh2022/store-front-l8:task1
+```
+
+<img src="./screenshots/59_push_the_image.png" alt="" title="Push the image" width="600"/>
 
 ---
 
