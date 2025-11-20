@@ -626,10 +626,25 @@ Currently, the deployment YAML runs `MongoDB` and `RabbitMQ` inside the Kubernet
     - Use a volumeClaimTemplates block to create per-pod PVCs
     - Ensure the config map (plugins, definitions) remains mounted.
     - **Hint:** RabbitMQ stores its data in /var/lib/rabbitmq. Use PersistentVolumeClaim templates similar to MongoDB’s.
+
+<img src="./screenshots/70_enable_rabbitmq_to store_msgs_persistently.png" alt="" title="Enable RabbitMQ to store messages persistently" width="1000"/>
+
 - **Investigate what Azure managed services could replace self-hosted MongoDB and RabbitMQ.**
   - For each service:
     - Give its name and purpose.
     - Explain why it’s a good fit (e.g., scaling, backups, availability).
+
+## MongoDB High Availability and Persistent Storage
+
+To improve MongoDB reliability, I updated the MongoDB StatefulSet so it runs as a three-node replica set. Each replica now receives its own PersistentVolumeClaim through a volumeClaimTemplates section, which ensures that data is stored on persistent disks instead of being lost when pods restart. I also changed the MongoDB service to a headless service (`clusterIP: None`), which creates stable DNS records such as `mongodb-0.mongodb`, `mongodb-1.mongodb`, and `mongodb-2.mongodb`. With these changes, the cluster now maintains availability even if individual pods fail, and MongoDB keeps its data safely between restarts.
+
+## RabbitMQ Persistent Storage
+
+RabbitMQ originally stored its queues and messages in memory, which meant that any restart caused all messaging data to disappear. To fix this issue, I updated the RabbitMQ StatefulSet so it mounts a persistent volume at `/var/lib/rabbitmq`. This was done by adding a volumeClaimTemplates block, similar to the MongoDB configuration, so each RabbitMQ pod receives its own persistent storage. I kept the existing ConfigMap mounted to ensure the RabbitMQ plugins and settings remained active. With this improvement, RabbitMQ now retains its queues and messages even after pod restarts.
+
+## Azure Managed Service Alternatives
+
+Instead of hosting databases inside the Kubernetes cluster, Azure offers fully managed cloud services that can replace both MongoDB and RabbitMQ. For MongoDB, Azure Cosmos DB with the MongoDB API is a strong alternative because it provides automatic backups, built-in replication, high availability, and no maintenance requirements. Applications can use it without changing MongoDB drivers. For message brokering, Azure Service Bus can replace RabbitMQ by offering durable message storage, automatic scaling, and high availability, all without needing to manage any infrastructure. Azure also provides a managed RabbitMQ solution through the Azure Marketplace for cases where keeping RabbitMQ is preferred but the operational overhead should be removed. All of these services improve reliability, reduce maintenance, and scale automatically.
 
 ## Submission
 
