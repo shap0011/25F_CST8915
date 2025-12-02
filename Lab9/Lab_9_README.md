@@ -79,10 +79,6 @@ Welcome to Lab 9! In this lab, you will automate the build, test, and deployment
 | `product-service`  | Handles CRUD operations on products      | [product-service-L8](https://github.com/shap0011/product-service-L8)   |
 | `makeline-service` | Processes and completes orders           | [makeline-service-L8](https://github.com/shap0011/makeline-service-L8) |
 | `ai-service`       | AI-based product descriptions and images | [ai-service-L8](https://github.com/shap0011/ai-service-L8)             |
-| `virtual-customer` | Simulates customer order creation        | [virtual-customer-L8](https://github.com/shap0011/virtual-customer-L8) |
-| `virtual-worker`   | Simulates order completion               | [virtual-worker-L8](https://github.com/shap0011/virtual-worker-L8)     |
-| `rabbitmq`         | RabbitMQ for an order queue              | [rabbitmq]()                                                           |
-| `mongodb`          | MongoDB instance for persisted data      | [mongodb]()                                                            |
 
 2. **Set Up Secrets**
 
@@ -90,6 +86,9 @@ Welcome to Lab 9! In this lab, you will automate the build, test, and deployment
    - Add the following repository secrets:
      - `DOCKER_USERNAME`: Your Docker Hub username.
      - `DOCKER_PASSWORD`: Your Docker Hub password.
+
+<img src="./screenshots/2_azure_get_nodes.png" alt="" title="Get nodes" width="700"/>
+
      - `KUBE_CONFIG_DATA`: Base64-encoded content of your Kubernetes configuration file (`kubeconfig`). This is used for authentication with your Kubernetes cluster.
        - Run the following commands to get `KUBE_CONFIG_DATA` after connecting to your AKS cluster:
      ```bash
