@@ -53,6 +53,8 @@ Welcome to Lab 9! In this lab, you will automate the build, test, and deployment
      - [`makeline-service`](https://github.com/ramymohamed10/makeline-service-L8)
      - [`ai-service`](https://github.com/ramymohamed10/ai-service-L8)
 
+**Forked to `shap0011` repo links**
+
 | Service            | Description                              | Github Repo                                                            |
 | ------------------ | ---------------------------------------- | ---------------------------------------------------------------------- |
 | `store-front`      | Web app for customers to place orders    | [store-front-L8](https://github.com/shap0011/store-front-L8)           |
