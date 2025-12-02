@@ -53,6 +53,19 @@ Welcome to Lab 9! In this lab, you will automate the build, test, and deployment
      - [`makeline-service`](https://github.com/ramymohamed10/makeline-service-L8)
      - [`ai-service`](https://github.com/ramymohamed10/ai-service-L8)
 
+| Service            | Description                              | Github Repo                                                            |
+| ------------------ | ---------------------------------------- | ---------------------------------------------------------------------- |
+| `store-front`      | Web app for customers to place orders    | [store-front-L8](https://github.com/shap0011/store-front-L8)           |
+| `store-admin`      | Web app for store employees              | [store-admin-L8](https://github.com/shap0011/store-admin-L8)           |
+| `order-service`    | Handles order placement                  | [order-service-L8](https://github.com/shap0011/order-service-L8)       |
+| `product-service`  | Handles CRUD operations on products      | [product-service-L8](https://github.com/shap0011/product-service-L8)   |
+| `makeline-service` | Processes and completes orders           | [makeline-service-L8](https://github.com/shap0011/makeline-service-L8) |
+| `ai-service`       | AI-based product descriptions and images | [ai-service-L8](https://github.com/shap0011/ai-service-L8)             |
+| `virtual-customer` | Simulates customer order creation        | [virtual-customer-L8](https://github.com/shap0011/virtual-customer-L8) |
+| `virtual-worker`   | Simulates order completion               | [virtual-worker-L8](https://github.com/shap0011/virtual-worker-L8)     |
+| `rabbitmq`         | RabbitMQ for an order queue              | [rabbitmq]()                                                           |
+| `mongodb`          | MongoDB instance for persisted data      | [mongodb]()                                                            |
+
 2. **Set Up Secrets**
 
    - Go to **Settings > Secrets and variables > Actions** in each forked repository.
