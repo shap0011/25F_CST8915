@@ -89,12 +89,14 @@ Welcome to Lab 9! In this lab, you will automate the build, test, and deployment
 
 <img src="./screenshots/2_azure_get_nodes.png" alt="" title="Get nodes" width="700"/>
 
-     - `KUBE_CONFIG_DATA`: Base64-encoded content of your Kubernetes configuration file (`kubeconfig`). This is used for authentication with your Kubernetes cluster.
-       - Run the following commands to get `KUBE_CONFIG_DATA` after connecting to your AKS cluster:
-     ```bash
-     cat ~/.kube/config | base64 -w 0 > kube_config_base64.txt
-     ```
-     Use the content of this file as the value for the KUBE_CONFIG_DATA secret in GitHub.
+- `KUBE_CONFIG_DATA`: Base64-encoded content of your Kubernetes configuration file (`kubeconfig`). This is used for authentication with your Kubernetes cluster.
+- Run the following commands to get `KUBE_CONFIG_DATA` after connecting to your AKS cluster:
+
+```bash
+  cat ~/.kube/config | base64 -w 0 > kube_config_base64.txt
+```
+
+Use the content of this file as the value for the KUBE_CONFIG_DATA secret in GitHub.
 
 3. **Set Up Environment Variables (Repository Variables)**
    - Go to **Settings > Secrets and variables > Actions** in each forked repository.
