@@ -25,6 +25,22 @@ Welcome to Lab 9! In this lab, you will automate the build, test, and deployment
 2. Docker Hub account credentials.
 3. Access to an AKS cluster as configured in previous labs (You will need to create one for this lab as well).
 
+**Set AKS cluster**
+
+<img src="./screenshots/1_aks_cluster.png" alt="" title="Set AKS Cluster" width="1100"/>
+
+**Set AI Backing Services**
+
+<img src="./screenshots/2_azure_openai_service_instance.png" alt="" title="Set AI Backing Services" width="1100"/>
+
+**Deploy the GPT-4 Model**
+
+<img src="./screenshots/3_openai_deployment.png" alt="" title="Chat GPT-4 deployment" width="900"/>
+
+**Chat GPT-4 playground**
+
+<img src="./screenshots/4_chat_playground.png" alt="" title="Chat GPT-4 playground" width="900"/>
+
 ---
 
 ## Introduction to GitHub Actions
